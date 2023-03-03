@@ -1,8 +1,13 @@
 import React from "react";
 
+import PartnerLogos from "../PartnerLogos";
+
 const Footer = () => {
   return (
-    <footer>Footer </footer>  
+    <footer>
+      <h1>Footer</h1>
+      <PartnerLogos />
+    </footer>  
   )
 }
 

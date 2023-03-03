@@ -2,27 +2,45 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // import from MUI
-import Stack from '@mui/material/Stack';
+// import Stack from '@mui/material/Stack';
+import Grid from '@mui/material/Unstable_Grid2'; 
+import { Paper } from '@mui/material';
+import { styled } from '@mui/material/styles';
+// import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 // import components
 import GlobeKeyLogo from '../GlobeKeyLogo';
 
 // import css
-import './Header.css';
+// import styles from './Header.module.css';
+
+const Surface = styled(Paper)(({ theme }) => ({
+  padding: theme.spacing(1),
+  textAlign: 'center',
+  backgroundColor: '#fbdecc',
+}));
 
 const Header = () => {
   return (
+   
     <header>
-      <ul>
-        <Stack direction="row" spacing={2}>
-        <li><Link to="/">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <GlobeKeyLogo />
-        <li><Link to="/design-process">Design Process</Link></li>
-        <li><Link to="/book-hotel">Book A Hotel</Link></li>
-        </Stack>
-      </ul>
+      <Surface elevation={3}>
+       
+       
+        <Grid container spacing={2}>
+       
+        <Grid xs={2}><Link to="/">Home</Link></Grid>
+        <Grid xs={2}><Link to="/about">About</Link></Grid>
+        <Grid xs={2}><Link to="/contact">Contact</Link></Grid>
+        <Grid xs={2}><Link><GlobeKeyLogo /></Link></Grid>
+        <Grid xs={2}><Link to="/design-process">Design Process</Link></Grid>
+        <Grid xs={2}><Link to="/book-hotel">Book A Hotel</Link></Grid>
+       
+        </Grid>
+      
+      </Surface>
     </header>
+   
   );
 }
 

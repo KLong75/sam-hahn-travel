@@ -1,11 +1,11 @@
 import React from 'react';
 
-const PartnerLogos = () => {
+const Home = () => {
   return (
     <div className='about-div'>
-      <h2>PartnerLogos</h2>
+      <h1>Home</h1>
     </div>
   );
 };
 
-export default PartnerLogos;
+export default Home;
