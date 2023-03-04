@@ -30,7 +30,8 @@ const theme = createTheme({
         },
         a: {
           textDecoration: 'none',
-        }
+          color: 'black',
+        },
       },
     },
   },

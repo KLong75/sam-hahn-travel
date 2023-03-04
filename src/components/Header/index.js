@@ -24,17 +24,19 @@ const Header = () => {
   return (
    
     <header>
-      <Surface elevation={3}>
+      <Surface elevation={6}>
        
        
         <Grid container spacing={2}>
-       
+        <Grid xs={12}><Link><GlobeKeyLogo /></Link></Grid>
+        <Grid xs={1}></Grid>
         <Grid xs={2}><Link to="/">Home</Link></Grid>
         <Grid xs={2}><Link to="/about">About</Link></Grid>
         <Grid xs={2}><Link to="/contact">Contact</Link></Grid>
-        <Grid xs={2}><Link><GlobeKeyLogo /></Link></Grid>
+        
         <Grid xs={2}><Link to="/design-process">Design Process</Link></Grid>
         <Grid xs={2}><Link to="/book-hotel">Book A Hotel</Link></Grid>
+        <Grid xs={1}></Grid>
        
         </Grid>
       
