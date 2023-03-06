@@ -34,45 +34,18 @@
 // export default MailingListSignUp;
 
 import React, { useState } from 'react';
+
 import emailjs from 'emailjs-com';
+
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import FormControl from '@mui/material/FormControl';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
     primary: {
       main: '#000',
-    },
-  },
-  components: {
-    MuiOutlinedInput: {
-      styleOverrides: {
-        root: {
-          '& $notchedOutline': {
-            borderColor: '#000',
-          },
-        },
-        input: {
-          color: '#000',
-        },
-        notchedOutline: {},
-        // Remove the background-color property below
-        '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-          borderColor: '#000',
-        },
-      },
-    },
-    MuiButton: {
-      styleOverrides: {
-        root: {
-          color: '#fff',
-          backgroundColor: '#000',
-          '&:hover': {
-            backgroundColor: '#111',
-          },
-        },
-      },
     },
   },
 });
@@ -85,18 +58,20 @@ const MailingListSignUp = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    console.log(`First Name: ${firstName}, Last Name: ${lastName}, Email: ${email}`);
+
     const templateParams = {
       firstName: firstName,
       lastName: lastName,
       email: email,
     };
 
-    emailjs.send(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, templateParams, process.env.REACT_APP_EMAILJS_USER_ID)
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
+    // emailjs.send(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, templateParams, process.env.REACT_APP_EMAILJS_USER_ID)
+    //   .then((result) => {
+    //     console.log(result.text);
+    //   }, (error) => {
+    //     console.log(error.text);
+    //   });
 
     setFirstName('');
     setLastName('');
@@ -106,6 +81,8 @@ const MailingListSignUp = () => {
   return (
     <ThemeProvider theme={theme}>
       <form onSubmit={handleSubmit}>
+      <h4>Join My Mailing List</h4>
+        <FormControl>
         <TextField
           required
           label="Email Address"
@@ -134,9 +111,10 @@ const MailingListSignUp = () => {
           onChange={(e) => setLastName(e.target.value)}
         />
         <br/>
-        <Button variant="contained" type="submit" onClick={handleSubmit}>
+        <Button variant="contained" type="submit" size='small' style={{width: '100px', backgroundColor: 'black'}}>
           Submit
         </Button>
+        </FormControl>
       </form>
     </ThemeProvider>
   );

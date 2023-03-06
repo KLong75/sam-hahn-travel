@@ -7,6 +7,17 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Button from '@mui/material/Button';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#000',
+    },
+  },
+
+});
+
 
 const ContactForm = () => {
   const [firstName, setFirstName] = useState('');
@@ -15,45 +26,68 @@ const ContactForm = () => {
   const [message, setMessage] = useState('');
   const [interestedIn, setInterestedIn] = useState('');
 
+  const handleFirstNameChange = (e) => {
+    setFirstName(e.target.value);
+  };
+
+  const handleLastNameChange = (e) => {
+    setLastName(e.target.value);
+  };
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleMessageChange = (e) => {
+    setMessage(e.target.value);
+  };
+
+  const handleInterestedInChange = (e) => {
+    setInterestedIn(e.target.value);
+  };
+
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(firstName, lastName, email, message, interestedIn);
+    // console.log with template literals
+    console.log(`First Name: ${firstName}, Last Name: ${lastName}, Email: ${email}, Message: ${message}, Interested In: ${interestedIn}`);
 
-    const templateParams = {
-      firstName: firstName,
-      lastName: lastName,
-      email: email,
-      message: message,
-      interestedIn: interestedIn,
-    };
-
+    // clear input fields
+    setFirstName('');
+    setLastName('');
+    setEmail('');
+    setMessage('');
+    setInterestedIn('');
   }
 
 
-
-
   return (
-    <section>
-      <h1>Contact Form</h1>
+    <ThemeProvider theme={theme}>
+    <form onSubmit={handleSubmit}>
+      <h4>Contact Form</h4>
       <FormControl>
-      <FormLabel id="contact-form-label">Your Details</FormLabel>
-        <TextField label='First Name' size='small' margin='dense' />
-        <TextField label='Last Name' size='small' margin='dense' />
-        <TextField label='Email Address' size='small' margin='dense' />
-        <TextField label='Message'  margin='dense' multiline rows={12}/>
+        <FormLabel id="contact-form-label">Your Details</FormLabel>
+          <TextField label='First Name' required value={firstName} onChange={handleFirstNameChange} size='small' margin='dense'/>
+          <TextField label='Last Name' required value={lastName} onChange={handleLastNameChange} size='small' margin='dense' />
+          <TextField label='Email Address' required value={email} onChange={handleEmailChange} size='small' margin='dense' />
+          <TextField label='Message' required value={message} onChange={handleMessageChange} margin='dense' multiline rows={8}/>
         <FormLabel id="interested-in">Interested In</FormLabel>
-        <RadioGroup
-        aria-labelledby="interested-in"
-        defaultValue="female"
-        name="radio-buttons-group"
-      >
-        <FormControlLabel value="Flight and Accommodation Booking/Group Booking" control={<Radio />} label="Flight and Accommodation Booking/Group Booking" />
-        <FormControlLabel value="Custom Travel Design" control={<Radio />} label="Custom Travel Design" />
-        <FormControlLabel value="Just Curious" control={<Radio />} label="Just Curious" />
-      </RadioGroup>
-        <Button type='submit' variant='contained' onClick={handleSubmit}>Submit</Button>
-        </FormControl>
-    </section>
+          <RadioGroup
+            aria-labelledby="interested-in"
+            value={interestedIn}
+            onChange={handleInterestedInChange}
+            name="radio-buttons-group"
+          >
+            <FormControlLabel value="Flight and Accommodation Booking/Group Booking" control={<Radio />} label="Flight and Accommodation Booking/Group Booking" />
+            <FormControlLabel value="Custom Travel Design" control={<Radio />} label="Custom Travel Design" />
+            <FormControlLabel value="Just Curious" control={<Radio />} label="Just Curious" />
+          </RadioGroup>
+         <Button type='submit' size='small' color='primary' variant='contained' style={{width: '100px'}}>Submit</Button>
+      </FormControl>
+    </form>
+    </ThemeProvider>
   );
 }
 

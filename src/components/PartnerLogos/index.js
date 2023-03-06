@@ -3,7 +3,7 @@ import React from 'react';
 const PartnerLogos = () => {
   return (
     <div className='about-div'>
-      <h2>PartnerLogos</h2>
+      <h4>Partner Logos</h4>
     </div>
   );
 };
