@@ -37,18 +37,10 @@ import React, { useState } from 'react';
 
 import emailjs from 'emailjs-com';
 
+import Grid from '@mui/material/Unstable_Grid2';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import FormControl from '@mui/material/FormControl';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#000',
-    },
-  },
-});
 
 const MailingListSignUp = () => {
   const [firstName, setFirstName] = useState('');
@@ -79,10 +71,28 @@ const MailingListSignUp = () => {
   };
 
   return (
-    <ThemeProvider theme={theme}>
-      <form onSubmit={handleSubmit}>
+    <Grid container spacing={1} justifyContent='center' textAlign='center'>
+    <form onSubmit={handleSubmit}>
       <h4>Join My Mailing List</h4>
         <FormControl>
+        <TextField
+          required
+          label="First Name"
+          variant="outlined"
+          size="small"
+          margin="dense"
+          value={firstName}
+          onChange={(e) => setFirstName(e.target.value)}
+        />
+        <TextField
+          required
+          label="Last Name"
+          variant="outlined"
+          size="small"
+          margin="dense"
+          value={lastName}
+          onChange={(e) => setLastName(e.target.value)}
+        />
         <TextField
           required
           label="Email Address"
@@ -93,30 +103,12 @@ const MailingListSignUp = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
         <br/>
-        <TextField
-          label="First Name"
-          variant="outlined"
-          size="small"
-          margin="dense"
-          value={firstName}
-          onChange={(e) => setFirstName(e.target.value)}
-        />
-        <br/>
-        <TextField
-          label="Last Name"
-          variant="outlined"
-          size="small"
-          margin="dense"
-          value={lastName}
-          onChange={(e) => setLastName(e.target.value)}
-        />
-        <br/>
         <Button variant="contained" type="submit" size='small' style={{width: '100px', backgroundColor: 'black'}}>
           Submit
         </Button>
         </FormControl>
       </form>
-    </ThemeProvider>
+      </Grid>
   );
 };
 

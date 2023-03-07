@@ -7,17 +7,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Button from '@mui/material/Button';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#000',
-    },
-  },
-
-});
-
+import Grid from '@mui/material/Unstable_Grid2';
 
 const ContactForm = () => {
   const [firstName, setFirstName] = useState('');
@@ -64,12 +54,12 @@ const ContactForm = () => {
 
 
   return (
-    <ThemeProvider theme={theme}>
+    <Grid container spacing={1} justifyContent='center' textAlign='center'>
     <form onSubmit={handleSubmit}>
       <h4>Contact Form</h4>
       <FormControl>
         <FormLabel id="contact-form-label">Your Details</FormLabel>
-          <TextField label='First Name' required value={firstName} onChange={handleFirstNameChange} size='small' margin='dense'/>
+          <TextField label='First Name' required value={firstName} onChange={handleFirstNameChange} size='small' margin='dense' />
           <TextField label='Last Name' required value={lastName} onChange={handleLastNameChange} size='small' margin='dense' />
           <TextField label='Email Address' required value={email} onChange={handleEmailChange} size='small' margin='dense' />
           <TextField label='Message' required value={message} onChange={handleMessageChange} margin='dense' multiline rows={8}/>
@@ -79,15 +69,17 @@ const ContactForm = () => {
             value={interestedIn}
             onChange={handleInterestedInChange}
             name="radio-buttons-group"
+            style={{color: 'black'}}
           >
-            <FormControlLabel value="Flight and Accommodation Booking/Group Booking" control={<Radio />} label="Flight and Accommodation Booking/Group Booking" />
-            <FormControlLabel value="Custom Travel Design" control={<Radio />} label="Custom Travel Design" />
-            <FormControlLabel value="Just Curious" control={<Radio />} label="Just Curious" />
+            <FormControlLabel value="Flight and Accommodation Booking/Group Booking" control={<Radio style={{color: 'black'}} />} label="Flight and Accommodation Booking/Group Booking" />
+            <FormControlLabel value="Custom Travel Design" control={<Radio style={{color: 'black'}}/>} label="Custom Travel Design" />
+            <FormControlLabel value="Just Curious" control={<Radio style={{color: 'black'}}/>} label="Just Curious" />
           </RadioGroup>
-         <Button type='submit' size='small' color='primary' variant='contained' style={{width: '100px'}}>Submit</Button>
+          <br/>
+         <Button type='submit' size='small' color='primary' variant='contained' style={{width: '100px', backgroundColor:'black'}}>Submit</Button>
       </FormControl>
     </form>
-    </ThemeProvider>
+    </Grid>
   );
 }
 
