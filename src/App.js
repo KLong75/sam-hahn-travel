@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 // import page components
 import Home from './pages/Home';
-import BookHotel from './pages/BookHotel';
+import BookHotel from './pages/BookHotel/BookHotel';
 import Contact from './pages/Contact';
 import DesignProcess from './pages/DesignProcess';
 import About from './pages/About';
