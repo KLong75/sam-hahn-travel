@@ -71,7 +71,7 @@ const MailingListSignUp = () => {
   };
 
   return (
-    <Grid container spacing={1} justifyContent='center' textAlign='center'>
+    <Grid container spacing={1} justifyContent='center' textAlign='center' >
     <form onSubmit={handleSubmit}>
       <h4>Join My Mailing List</h4>
         <FormControl>

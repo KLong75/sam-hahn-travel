@@ -9,7 +9,8 @@ import samPic from  '../assets/images/sam_pic.jpg';
 
 const About = () => {
   return (
-    <Grid container spacing={1} textAlign='left' alignItems='center' style={{ display: 'flex', justifyContent: 'center' }}>
+    // <Grid container spacing={1} textAlign='left' alignItems='center' style={{ display: 'flex', justifyContent: 'center' }}>
+    <Grid container spacing={1} textAlign='left' alignItems='center' >
       <Grid xs={12} md={6}>
         <h1>Hi, I'm Sam.</h1>
 
@@ -21,13 +22,12 @@ const About = () => {
 
         <p>If you are looking to take your personal or professional travel to the next level, I can help. By working with carefully selected travel partners around the globe, I can assure my clients that they’ll be comfortable and supported while enjoying the experience of a new or long-beloved destination. </p>
       </Grid>
-      <Grid xs={12} md={6} sx={{ textAlign: 'center' }}>
+      <Grid xs={12} md={6} sx={{ textAlign: 'center' }} >
         <img src={samPic} alt='Sam Hahn' style={{width: '375px', height: '563px'}}/>
       </Grid>
       <Grid xs={12}>
         <InstagramFeed />
       </Grid>
-
     </Grid>
   );
 };

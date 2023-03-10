@@ -10,7 +10,7 @@ const ContactInfo = () => {
         <h5>Contact Info</h5>
       </Grid>
       <Grid xs={6} md={3}>
-        <p>Phone: 555-555-5555</p>
+        <p>Phone: 314-304-3196</p>
       </Grid>
       <Grid xs={6} md={3}>
         <a href="mailto:sam@samhahntravel.com">

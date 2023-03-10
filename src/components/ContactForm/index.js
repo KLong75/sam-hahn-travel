@@ -54,15 +54,14 @@ const ContactForm = () => {
 
 
   return (
-    <Grid container spacing={1} justifyContent='center' textAlign='center'>
+    <Grid container spacing={1} justifyContent='center' textAlign='center' >
     <form onSubmit={handleSubmit}>
       <h4>Contact Form</h4>
       <FormControl>
-        <FormLabel id="contact-form-label">Your Details</FormLabel>
-          <TextField label='First Name' required value={firstName} onChange={handleFirstNameChange} size='small' margin='dense' />
-          <TextField label='Last Name' required value={lastName} onChange={handleLastNameChange} size='small' margin='dense' />
-          <TextField label='Email Address' required value={email} onChange={handleEmailChange} size='small' margin='dense' />
-          <TextField label='Message' required value={message} onChange={handleMessageChange} margin='dense' multiline rows={8}/>
+        <TextField label='First Name' required value={firstName} onChange={handleFirstNameChange} size='small' margin='dense' />
+        <TextField label='Last Name' required value={lastName} onChange={handleLastNameChange} size='small' margin='dense' />
+        <TextField label='Email Address' required value={email} onChange={handleEmailChange} size='small' margin='dense' />
+        <TextField label='Message' required value={message} onChange={handleMessageChange} margin='dense' multiline rows={8}/>
         <FormLabel id="interested-in">Interested In</FormLabel>
           <RadioGroup
             aria-labelledby="interested-in"
