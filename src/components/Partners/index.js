@@ -2,6 +2,17 @@ import React from 'react';
 
 // import from Material UI
 import Grid from '@mui/material/Unstable_Grid2';
+import { styled } from '@mui/material/styles';
+import { Paper } from '@mui/material';
+import Box from '@mui/material/Box';
+
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+
 
 // import styles
 import styles from './Partners.module.css';
@@ -21,43 +32,48 @@ import Relais from '../../assets/images/partner_logos/Relais.png';
 import Rosewood from '../../assets/images/partner_logos/Rosewood.png';
 import Virtuoso from '../../assets/images/partner_logos/Virtuoso.png';
 
-const partnerDetails = [
+const PartnerDetails = [
   {
     name: 'Belmond Bellini',
     image: BelmondBellini,
     alt: 'Belmond Bellini',
     className: styles.belmondBelliniLogo,
+    description: 'description text',
   },
   {
     name: 'Belmond',
     image: Belomond,
     alt: 'Belmond',
     className: styles.belmondLogo,
+    description: 'description text',
   },
   {
     name: 'Diamond',
     image: Diamond,
     alt: 'Diamond',
-
     className: styles.diamondLogo,
+    description: 'description text',
   },
   {
     name: 'Four Seasons',
     image: FourSeasons,
     alt: 'Four Seasons',
     className: styles.fourSeasonsLogo,
+    description: 'description text',
   },
   {
     name: 'Hyatt Prive',
     image: HyattPrive,
     alt: 'Hyatt Prive',
     className: styles.hyattPriveLogo,
+    description: 'description text',
   },
   {
     name: 'In The Know',
     image: InTheKnow,
     alt: 'In The Know',
     className: styles.inTheKnowLogo,
+    description: 'description text',
   },
   {
     name: 'Jumeriah',
@@ -110,25 +126,22 @@ const partnerDetails = [
   },
 ];
 
+
+
 const Partners = () => {
+
+  
+
+
+
   return (
-    <Grid container spacing={2} justifyContent="center" textAlign='center'>
-      <img src={BelmondBellini} alt="" className={styles.belmondBelliniLogo} />
-      <img src={Belomond} alt="" className={styles.belmondLogo} />
-      <img src={Diamond} alt="" className={styles.diamondLogo} />
-      <img src={FourSeasons} alt="" className={styles.fourSeasonsLogo} />
-      <img src={HyattPrive} alt="" className={styles.hyattPriveLogo} />
-      <img src={InTheKnow} alt="" className={styles.inTheKnowLogo} />
-      <img src={Jumeriah} alt="" className={styles.jumeriahLogo} />
-      <img src={Mandarin} alt="" className={styles.mandarinLogo} />
-      <img src={MarriottStars} alt="" className={styles.marriottStarsLogo} />
-      <img src={OetkerCollection} alt="" className={styles.oetkerCollectionLogo} />
-      <img src={Relais} alt="" className={styles.relaisLogo} />
-      <img src={Rosewood} alt="" className={styles.rosewoodLogo} />
-      <img src={Virtuoso} alt="" className={styles.virtuosoLogo} />
+    <Grid container spacing={2} justifyContent='center' alignItems='center'>
       
     </Grid>
+
   );
 };
+
+
 
 export default Partners;
