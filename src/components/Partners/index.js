@@ -4,14 +4,14 @@ import React from 'react';
 import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
 import { Paper } from '@mui/material';
-import Box from '@mui/material/Box';
+// import Box from '@mui/material/Box';
 
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+// import Card from '@mui/material/Card';
+// import CardActions from '@mui/material/CardActions';
+// import CardContent from '@mui/material/CardContent';
+// import CardMedia from '@mui/material/CardMedia';
+// import Button from '@mui/material/Button';
+// import Typography from '@mui/material/Typography';
 
 
 // import styles
@@ -32,116 +32,140 @@ import Relais from '../../assets/images/partner_logos/Relais.png';
 import Rosewood from '../../assets/images/partner_logos/Rosewood.png';
 import Virtuoso from '../../assets/images/partner_logos/Virtuoso.png';
 
-const PartnerDetails = [
+const PartnerInfo = [
   {
     name: 'Belmond Bellini',
     image: BelmondBellini,
     alt: 'Belmond Bellini',
     className: styles.belmondBelliniLogo,
-    description: 'description text',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     name: 'Belmond',
     image: Belomond,
     alt: 'Belmond',
     className: styles.belmondLogo,
-    description: 'description text',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
-    name: 'Diamond',
+    name: 'Diamond Club',
     image: Diamond,
-    alt: 'Diamond',
+    alt: 'Diamond Club Logo',
     className: styles.diamondLogo,
-    description: 'description text',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     name: 'Four Seasons',
     image: FourSeasons,
     alt: 'Four Seasons',
     className: styles.fourSeasonsLogo,
-    description: 'description text',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     name: 'Hyatt Prive',
     image: HyattPrive,
     alt: 'Hyatt Prive',
     className: styles.hyattPriveLogo,
-    description: 'description text',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     name: 'In The Know',
     image: InTheKnow,
     alt: 'In The Know',
     className: styles.inTheKnowLogo,
-    description: 'description text',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     name: 'Jumeriah',
     image: Jumeriah,
     alt: 'Jumeriah',
     className: styles.jumeriahLogo,
-    description: 'Jumeriah',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     name: 'Mandarin',
     image: Mandarin,
     alt: 'Mandarin',
     className: styles.mandarinLogo,
-    description: 'Mandarin',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     name: 'Marriott Stars',
     image: MarriottStars,
     alt: 'Marriott Stars',
     className: styles.marriottStarsLogo,
-    description: 'Marriott Stars',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     name: 'Oetker Collection',
     image: OetkerCollection,
     alt: 'Oetker Collection',
     className: styles.oetkerCollectionLogo,
-    description: 'Oetker Collection',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     name: 'Relais',
     image: Relais,
     alt: 'Relais',
     className: styles.relaisLogo,
-    description: 'Relais',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     name: 'Rosewood',
     image: Rosewood,
     alt: 'Rosewood',
     className: styles.rosewoodLogo,
-    description: 'Rosewood',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
   {
     name: 'Virtuoso',
     image: Virtuoso,
     alt: 'Virtuoso',
     className: styles.virtuosoLogo,
-    description: 'Virtuoso',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
 ];
+
+const PartnerCard = styled(Paper)(({ theme }) => ({
+  ...theme.typography.body2,
+  padding: theme.spacing(2),
+  margin: theme.spacing(1),
+  textAlign: 'center',
+  color: theme.palette.text.secondary,
+  backgroundColor: '#fbdecc',
+}));
+
 
 
 
 const Partners = () => {
 
-  
-
-
-
   return (
-    <Grid container spacing={2} justifyContent='center' alignItems='center'>
-      
-    </Grid>
+   
+      <Grid container spacing={2} textAlign='center'>
+        <Grid xs={12}>
+          <h2>My Partners</h2>
+        </Grid>
 
+        {PartnerInfo.map((partner) => (
+          <Grid  xs={12} sm={6} md={4}  key={partner.name} className='partner-cards'>
+            <Grid> 
+              <PartnerCard elevation={6} >
+              
+                <img src={partner.image} alt={partner.alt} className={partner.className} />
+             
+                <h3>{partner.name}</h3>
+            
+                <p>{partner.description}</p>
+              
+              </PartnerCard>
+            </Grid>
+            
+          </Grid>
+        ))}
+      </Grid>
+    
   );
 };
-
-
 
 export default Partners;
