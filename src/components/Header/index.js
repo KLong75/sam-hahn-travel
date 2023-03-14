@@ -70,11 +70,11 @@ const Header = () => {
             },
           }}
         >
-          <MenuItem component={Link} to="/" onClick={handleMenuClose} style={{ padding: '18px' }}>Home</MenuItem>
-          <MenuItem component={Link} to="/about" onClick={handleMenuClose} style={{ padding: '18px' }}>About</MenuItem>
-          <MenuItem component={Link} to="/contact" onClick={handleMenuClose} style={{ padding: '18px' }}>Contact</MenuItem>
-          <MenuItem component={Link} to="/design-process" onClick={handleMenuClose} style={{ padding: '18px' }}>Design Process</MenuItem>
-          <MenuItem component={Link} to="/book-hotel" onClick={handleMenuClose} style={{ padding: '18px' }}>Book A Hotel</MenuItem>
+          <MenuItem component={Link} to="/" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Home</MenuItem>
+          <MenuItem component={Link} to="/about" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>About</MenuItem>
+          <MenuItem component={Link} to="/contact" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Contact</MenuItem>
+          <MenuItem component={Link} to="/design-process" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Design Process</MenuItem>
+          <MenuItem component={Link} to="/book-hotel" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Book A Hotel</MenuItem>
         </Menu>
       </div>
     </header>

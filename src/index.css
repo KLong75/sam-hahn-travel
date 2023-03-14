@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Commissioner&family=Cormorant&family=Courgette&family=Macondo&family=Nothing+You+Could+Do&family=Pinyon+Script&family=Roboto+Flex&display=swap');
+
+
+
 body {
+  font-family: 'Courgette';
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -10,13 +15,27 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
 }
 
 html {
   overflow-x: hidden;
 }
 
+.courgette {
+  font-family: 'Courgette';
+}
+
+.nothing-you-could-do {
+  font-family: 'Nothing You Could Do';
+}
+
+.pinyon-script {
+  font-family: 'Pinyon Script';
+}
+
+.macondo {
+  font-family: 'Macondo';
+}
 
 

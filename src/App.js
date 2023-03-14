@@ -17,6 +17,16 @@ import DesignProcess from './pages/DesignProcess';
 import About from './pages/About';
 
 const theme = createTheme({
+  typography: {
+    fontFamily: [
+      // 'Courgette',
+      // 'sans-serif',
+      'Cormorant',
+      'Roboto Flex',
+      'Roboto',
+      'sans-serif',
+    ].join(','),
+  },
   palette: {
     background: {
       default: '#fbdecc',
@@ -27,6 +37,7 @@ const theme = createTheme({
       styleOverrides: {
         ul: {
           listStyleType: 'none',
+          padding: 0,
         },
         a: {
           textDecoration: 'none',

@@ -23,8 +23,8 @@ const BookHotel = () => {
           <li>Early Check-in & Check-Out, if available</li>
         </ul>
       </Grid>
-      <Grid>
-      <Button variant="contained" href='https://www.virtuoso.com/advisor/samhahn52221/travel/' target='_blank' size='small' style={{width: '100px', backgroundColor: 'black'}}>
+      <Grid xs={12}>
+      <Button variant="contained" href='https://www.virtuoso.com/advisor/samhahn52221/travel/' target='_blank' size='small' style={{ backgroundColor: 'black'}}>
           Book Now
       </Button>
       </Grid>

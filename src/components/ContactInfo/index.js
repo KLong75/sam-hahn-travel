@@ -6,15 +6,17 @@ import Grid from '@mui/material/Unstable_Grid2/Grid2';
 const ContactInfo = () => {
   return (
     <Grid container justifyContent='center'>
-      <Grid xs={12}>
+      {/* <Grid xs={12}>
         <h5>Contact Info</h5>
-      </Grid>
+      </Grid> */}
       <Grid xs={6} md={3}>
-        <p>Phone: 314-304-3196</p>
+        <a href="tel:314-304-3196">
+        <p>314-304-3196</p>
+        </a>
       </Grid>
       <Grid xs={6} md={3}>
         <a href="mailto:sam@samhahntravel.com">
-          <p>Email: sam@samhahntravel.com</p>
+          <p>sam@samhahntravel.com</p>
         </a>
       </Grid>
     </Grid>

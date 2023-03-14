@@ -11,19 +11,19 @@ const About = () => {
   return (
     // <Grid container spacing={1} textAlign='left' alignItems='center' style={{ display: 'flex', justifyContent: 'center' }}>
     <Grid container spacing={1} textAlign='left' alignItems='center' >
-      <Grid xs={12} md={6}>
-        <h1>Hi, I'm Sam.</h1>
+      <Grid xs={12} md={6} >
+        <h1 style={{margin: '20px'}}>Hi, I'm Sam.</h1>
 
-        <p>I provide clients with singular experiences that reflect their unique lifestyles and personalities.</p>
+        <p style={{margin: '20px'}}>I provide clients with singular experiences that reflect their unique lifestyles and personalities.</p>
 
-        <p>My partnerships and experience enable you to discover and appreciate the culture of a destination with the added bonus of VIP perks and comfort.</p>
+        <p style={{margin: '20px'}}>My partnerships and experience enable you to discover and appreciate the culture of a destination with the added bonus of VIP perks and comfort.</p>
 
-        <p>I started Sam Hahn Travel to bring the far corners of the world just a little bit closer. Creating authentic experience and making memories through travel is my passion. I love sharing insight, smoothing wrinkles, and amplifying itineraries to make the process amazing. </p>
+        <p style={{margin: '20px'}}>I started Sam Hahn Travel to bring the far corners of the world just a little bit closer. Creating authentic experience and making memories through travel is my passion. I love sharing insight, smoothing wrinkles, and amplifying itineraries to make the process amazing. </p>
 
-        <p>If you are looking to take your personal or professional travel to the next level, I can help. By working with carefully selected travel partners around the globe, I can assure my clients that they’ll be comfortable and supported while enjoying the experience of a new or long-beloved destination. </p>
+        <p style={{margin: '20px'}}>If you are looking to take your personal or professional travel to the next level, I can help. By working with carefully selected travel partners around the globe, I can assure my clients that they’ll be comfortable and supported while enjoying the experience of a new or long-beloved destination. </p>
       </Grid>
       <Grid xs={12} md={6} sx={{ textAlign: 'center' }} >
-        <img src={samPic} alt='Sam Hahn' style={{width: '375px', height: '563px'}}/>
+        <img src={samPic} alt='Sam Hahn' style={{width: '375px', height: '563px', margin: '5px'}}/>
       </Grid>
       <Grid xs={12}>
         <InstagramFeed />
