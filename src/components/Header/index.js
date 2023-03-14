@@ -37,11 +37,11 @@ const Header = () => {
         ) : (
           <nav style={{ margin: 0, padding: 0 }}>
             <ul style={{ display: 'flex', listStyle: 'none', margin: 0, padding: 0 }}>
-              <li style={{ margin: '0 20px' }}><Link to="/">Home</Link></li>
-              <li style={{ margin: '0 20px' }}><Link to="/about">About</Link></li>
-              <li style={{ margin: '0 20px' }}><Link to="/contact">Contact</Link></li>
-              <li style={{ margin: '0 20px' }}><Link to="/design-process">Design Process</Link></li>
-              <li style={{ margin: '0 20px' }}><Link to="/book-hotel">Book A Hotel</Link></li>
+              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/">Home</Link></li>
+              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/about">About</Link></li>
+              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/contact">Contact</Link></li>
+              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/design-process">Design Process</Link></li>
+              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/book-hotel">Book A Hotel</Link></li>
             </ul>
           </nav>
         )}

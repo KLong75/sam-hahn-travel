@@ -31,6 +31,9 @@ const theme = createTheme({
     background: {
       default: '#fbdecc',
     },
+    text: {
+      primary: '#000000',
+    },
   },
   components: {
     MuiCssBaseline: {

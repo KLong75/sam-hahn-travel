@@ -12,10 +12,10 @@ const BookHotel = () => {
     <Grid container justifyContent='center' textAlign='center' >
       <Grid xs={12}><h1>Book a hotel on your own and receive VIP perks!</h1></Grid>
       <Grid xs={12}><img src={Virtuoso} alt="" className={styles.virtuosoLogo} /></Grid>
-      <Grid xs={12}><p>My clients receive exclusive perks with their hotel bookings through my partnership with Virtuoso. If you already know where you want to go and do not require my hotel matchmaking service, you can now make your own hotel reservations using the Virtuoso Hotel Booking Tool.</p></Grid>
+      <Grid xs={12} textAlign='left'><p style={{margin: '20px', fontSize: '16px'}} >My clients receive exclusive perks with their hotel bookings through my partnership with Virtuoso. If you already know where you want to go and do not require my hotel matchmaking service, you can now make your own hotel reservations using the Virtuoso Hotel Booking Tool.</p></Grid>
 
-      <Grid xs={12}><h2>Common Virtuoso Perks Include:</h2></Grid>
-      <Grid xs={12}>
+      <Grid xs={12}><h2 style={{margin: '-10px'}}>Common Virtuoso Perks Include:</h2></Grid>
+      <Grid xs={12} style={{fontSize: '18px', fontWeight: 'bold'}}>
         <ul>
           <li>Complimentary Daily Breakfast</li>
           <li>$100+ Hotel Credit</li>

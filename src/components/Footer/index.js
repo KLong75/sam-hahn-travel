@@ -15,9 +15,10 @@ const Footer = () => {
     <footer>
       <Grid container spacing={2} justifyContent="center" textAlign='center'>
         <Grid xs={12}>
-          <img src={textLogo} alt="text logo" className="text-logo" style={{width: '175px', height: '21px', marginBottom: '-40px'}} />
+          <img src={textLogo} alt="text logo" className="text-logo" style={{width: '175px', height: '21px', marginTop: '60px', marginBottom: '-12px'}} />
         </Grid>
         <Grid xs={12}><ContactInfo /></Grid>
+        <Grid xs={12}>©2023 Sam Hahn Travel Co</Grid>
       </Grid>
     </footer>  
   )

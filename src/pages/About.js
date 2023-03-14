@@ -2,7 +2,7 @@ import React from 'react';
 
 import Grid from '@mui/material/Unstable_Grid2';
 
-import InstagramFeed from '../components/InstagramFeed';
+// import Gallery from '../components/Gallery';
 
 import samPic from  '../assets/images/sam_pic.jpg';
 
@@ -24,9 +24,6 @@ const About = () => {
       </Grid>
       <Grid xs={12} md={6} sx={{ textAlign: 'center' }} >
         <img src={samPic} alt='Sam Hahn' style={{width: '375px', height: '563px', margin: '5px'}}/>
-      </Grid>
-      <Grid xs={12}>
-        <InstagramFeed />
       </Grid>
     </Grid>
   );
