@@ -41,7 +41,8 @@ const Header = () => {
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/about">About</Link></li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/contact">Contact</Link></li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/design-process">Design Process</Link></li>
-              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/book-hotel">Book A Hotel</Link></li>
+              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/self-booking">Self Booking Resources</Link></li>
+              {/* <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/book-hotel">Book A Hotel</Link></li> */}
             </ul>
           </nav>
         )}
@@ -74,7 +75,8 @@ const Header = () => {
           <MenuItem component={Link} to="/about" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>About</MenuItem>
           <MenuItem component={Link} to="/contact" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Contact</MenuItem>
           <MenuItem component={Link} to="/design-process" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Design Process</MenuItem>
-          <MenuItem component={Link} to="/book-hotel" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Book A Hotel</MenuItem>
+          <MenuItem component={Link} to="/self-booking" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Self Booking Resources</MenuItem>
+          {/* <MenuItem component={Link} to="/book-hotel" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Book A Hotel</MenuItem> */}
         </Menu>
       </div>
     </header>

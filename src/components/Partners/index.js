@@ -18,19 +18,20 @@ import { Paper } from '@mui/material';
 import styles from './Partners.module.css';
 
 // import images
-import BelmondBellini from '../../assets/images/partner_logos/Belmond_Bellini.png';
-import Belomond from '../../assets/images/partner_logos/Belmond_new.png';
-import Diamond from '../../assets/images/partner_logos/Diamond.png';
-import FourSeasons from '../../assets/images/partner_logos/FourSeasons.png';
-import HyattPrive from '../../assets/images/partner_logos/HyattPrive.png';
-import InTheKnow from '../../assets/images/partner_logos/InTheKnow.png';
-import Jumeriah from '../../assets/images/partner_logos/Jumeriah.png';
-import Mandarin from '../../assets/images/partner_logos/Mandarin.png';
-import MarriottStars from '../../assets/images/partner_logos/MarriottStars_new.png';
-import OetkerCollection from '../../assets/images/partner_logos/OetkerCollection.png';
-import Relais from '../../assets/images/partner_logos/Relais.png';
-import Rosewood from '../../assets/images/partner_logos/Rosewood.png';
-import Virtuoso from '../../assets/images/partner_logos/Virtuoso.png';
+import BelmondBellini from '../../assets/partner_logos/Belmond_Bellini.png';
+import Belomond from '../../assets/partner_logos/Belmond_new.png';
+import Diamond from '../../assets/partner_logos/Diamond.png';
+import FourSeasons from '../../assets/partner_logos/FourSeasons.png';
+import HyattPrive from '../../assets/partner_logos/HyattPrive.png';
+import InTheKnow from '../../assets/partner_logos/InTheKnow.png';
+import Jumeriah from '../../assets/partner_logos/Jumeriah.png';
+import Mandarin from '../../assets/partner_logos/Mandarin.png';
+import MarriottStars from '../../assets/partner_logos/MarriottStars_new.png';
+import OetkerCollection from '../../assets/partner_logos/OetkerCollection.png';
+import Relais from '../../assets/partner_logos/Relais.png';
+import Rosewood from '../../assets/partner_logos/Rosewood.png';
+import Virtuoso from '../../assets/partner_logos/Virtuoso.png';
+import Context from '../../assets/partner_logos/ContextTravel.png';
 
 const PartnerInfo = [
   {
@@ -120,8 +121,15 @@ const PartnerInfo = [
   {
     name: 'Virtuoso',
     image: Virtuoso,
-    alt: 'Virtuoso',
+    alt: 'Virtuoso Logo',
     className: styles.virtuosoLogo,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  },
+  {
+    name: 'Context Travel',
+    image: Context,
+    alt: 'Context Travel Logo',
+    className: styles.contextLogo,
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   },
 ];

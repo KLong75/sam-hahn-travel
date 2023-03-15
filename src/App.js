@@ -11,10 +11,11 @@ import Footer from './components/Footer';
 
 // import page components
 import Home from './pages/Home';
-import BookHotel from './pages/BookHotel/BookHotel';
+// import BookHotel from './pages/BookHotel/BookHotel';
 import Contact from './pages/Contact';
 import DesignProcess from './pages/DesignProcess';
 import About from './pages/About';
+import SelfBooking from './pages/SelfBooking';
 
 const theme = createTheme({
   typography: {
@@ -64,7 +65,8 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/design-process" element={<DesignProcess />} />
-              <Route path="/book-hotel" element={<BookHotel />} />
+              <Route path="/self-booking" element={<SelfBooking />} />
+              {/* <Route path="/book-hotel" element={<BookHotel />} /> */}
             </Routes>
           <Footer />
         {/* </div> */}
