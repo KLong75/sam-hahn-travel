@@ -27,7 +27,17 @@ const Home = () => {
   return (
       <Grid container className='container' spacing={1} justifyContent='center' textAlign='center'  >
         <Grid xs={12}>
-          <img src={textLogo} alt='text logo' className='text-logo'style={{width: '526px', height: '62px', marginBottom: '', marginTop: '0px'}} />
+          <img 
+            src={textLogo} 
+            alt='text logo' 
+            className='text-logo'
+            style={{
+              width: '526px', 
+              height: 'auto', 
+              maxWidth: '95%'
+            }} 
+          />
+       
         </Grid>
         <Grid xs={12} style={{marginBottom: ''}}><h1 className='nothing-you-could-do' style={{fontSize: '80px'}}>Unlock Inspired Travel</h1></Grid>
         <Grid xs={12}><h2 className='' style={{fontSize: '36px'}}>Discover the Value of a Travel Designer</h2></Grid>
@@ -39,6 +49,8 @@ const Home = () => {
             style={{margin: '18px', fontWeight: '', fontSize: '20px', textAlign: 'left'}}>
               Every journey can be made uniquely yours with a trusted professional who understands you as well as the places you are going. I will match you with the right combination of pace, trusted outfitters, lodging partners, and local experiences.
           </p>
+
+          
          
         </Grid>
         

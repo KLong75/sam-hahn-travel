@@ -10,6 +10,8 @@ import BookTour from '../components/BookTour';
 // import images
 import textLogo from '../assets/images/text_name_logo.png';
 
+
+
 const SelfBooking = () => {
   return (
     
@@ -19,11 +21,11 @@ const SelfBooking = () => {
           src={textLogo} 
           alt="text logo" 
           className="text-logo" 
-          style={{width: '526px', height: '62px', marginTop: '0px', marginBottom: '30px'}} 
+          style={{width: '526px', height: 'auto', maxWidth: '95%', marginBottom: '30px'}} 
         />
       </Grid>
       <Grid xs={12}>
-        <h2>Self Booking Resources</h2>
+        <h1>Self Booking Resources</h1>
       </Grid>
       <Grid xs={12} md={6}>
         <BookHotel />

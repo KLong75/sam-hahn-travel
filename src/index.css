@@ -38,4 +38,9 @@ html {
   font-family: 'Macondo';
 }
 
+@media screen and (max-width: 500px) {
+  .text-logo {
+    width: 200px;
+  }
+}
 

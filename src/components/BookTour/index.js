@@ -4,14 +4,16 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Button from '@mui/material/Button';
 
 import Context from '../../assets/partner_logos/ContextTravel.png';
-
-
+import globeLogo from '../../assets/images/globe.png';
 
 const BookTour = () => {
   return (
     <Grid container justifyContent='center' textAlign='center'>
       <Grid xs={12}>
         <h1>TOURS</h1>
+      </Grid>
+      <Grid xs={12}> 
+        <img src={globeLogo} alt="globe logo" style={{width: '100px', height: '100px', marginTop: '-40px', marginBottom: '-40px'}} />
       </Grid>
       <Grid xs={12}>
         <h1>Experience the World with Leading Experts</h1>

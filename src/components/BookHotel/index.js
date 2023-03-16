@@ -4,13 +4,16 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Button from '@mui/material/Button';
 
 import Virtuoso from '../../assets/partner_logos/Virtuoso.png';
-
+import luggageLogo from '../../assets/images/luggage.png';
 
 const BookHotel = () => {
   return (
     <Grid container justifyContent='center' textAlign='center' >
       <Grid xs={12}>
         <h1>HOTELS</h1>
+      </Grid>
+      <Grid xs={12}> 
+        <img src={luggageLogo} alt="globe logo" style={{width: '100px', height: '100px', marginTop: '-40px', marginBottom: '-40px'}} />
       </Grid>
       <Grid xs={12}>
         <h1>Book a hotel on your own and receive VIP perks!</h1>

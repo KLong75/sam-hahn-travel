@@ -19,7 +19,12 @@ const DesignProcess = () => {
           src={textLogo} 
           alt="text logo" 
           className="text-logo" 
-          style={{width: '526px', height: '62px', marginTop: '0px', marginBottom: '30px'}} 
+          style={{
+            width: '526px', 
+            height: 'auto', 
+            maxWidth: '95%',
+            marginBottom: '30px'
+          }} 
         />
       </Grid>
       <Grid xs={12}>

@@ -20,8 +20,8 @@ import styles from './Partners.module.css';
 // import images
 import BelmondBellini from '../../assets/partner_logos/Belmond_Bellini.png';
 import Belomond from '../../assets/partner_logos/Belmond_new.png';
-import Diamond from '../../assets/partner_logos/Diamond.png';
-import FourSeasons from '../../assets/partner_logos/FourSeasons.png';
+import Diamond from '../../assets/partner_logos/Diamond_crop.png';
+import FourSeasons from '../../assets/partner_logos/FourSeasons_crop.png';
 import HyattPrive from '../../assets/partner_logos/HyattPrive.png';
 import InTheKnow from '../../assets/partner_logos/InTheKnow.png';
 import Jumeriah from '../../assets/partner_logos/Jumeriah.png';

@@ -12,7 +12,17 @@ const About = () => {
   return (
     <>
     <Grid container spacing={1} alignItems='center'  textAlign='center' >
-    <Grid xs={12}><img src={textLogo} alt="text logo" className="text-logo" style={{width: '526px', height: '62px', marginTop: '0px', marginBottom: '30px'}} /></Grid>
+      <Grid xs={12}>
+        <img 
+          src={textLogo} 
+          alt="Sam Hahn Travel text logo" className="text-logo" 
+          style={{
+            width: '526px', 
+            height: 'auto', 
+            maxWidth: '95%',
+          }} 
+        />
+      </Grid>
     </Grid>
 
     <Grid container spacing={1} alignItems='center'  textAlign='' >
@@ -40,7 +50,7 @@ const About = () => {
         </p>
       </Grid>
       <Grid xs={12} md={6} sx={{ textAlign: 'center' }} >
-        <img src={samPic} alt='Sam Hahn' style={{width: '357px', height: '505px'}}/>
+        <img src={samPic} alt='Sam Hahn' style={{width: '357px', height: '505px', marginTop: '20px'}}/>
       </Grid>
     </Grid>
     </>
