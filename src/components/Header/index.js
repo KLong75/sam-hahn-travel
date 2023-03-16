@@ -1,9 +1,15 @@
+// import from React
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+
+// import from Material UI
 import { IconButton, Menu, MenuItem } from '@mui/material';
 // import { styled } from '@mui/material/styles';
-import GlobeKeyLogo from '../GlobeKeyLogo';
 import MenuIcon from '@mui/icons-material/Menu';
+
+// import images
+import GlobeKeyLogo from '../GlobeKeyLogo';
+import frameGlobeLogoPeach from '../../assets/images/frame_globe_logo_peach.png';
 
 const Header = () => {
   const [menuAnchor, setMenuAnchor] = useState(null);
@@ -50,7 +56,6 @@ const Header = () => {
           anchorEl={menuAnchor}
           open={Boolean(menuAnchor)}
           onClose={handleMenuClose}
-          
           PaperProps={{
             style: {
               top: "64px",
@@ -71,6 +76,8 @@ const Header = () => {
             },
           }}
         >
+          <img src={frameGlobeLogoPeach} alt="Globe Key Logo" style={{ width: '200px', height: '200px', marginTop: '-100px', marginLeft: '35px' }} />
+
           <MenuItem component={Link} to="/" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Home</MenuItem>
           <MenuItem component={Link} to="/about" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>About</MenuItem>
           <MenuItem component={Link} to="/contact" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Contact</MenuItem>
