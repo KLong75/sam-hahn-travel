@@ -73,7 +73,7 @@ const MailingListSignUp = () => {
   return (
     <Grid container spacing={1} justifyContent='center' textAlign='center' >
     <form onSubmit={handleSubmit}>
-      <h4>Join My Mailing List</h4>
+      <h4 style={{ textDecoration: 'underline', fontSize: '20px'}}>Join My Mailing List</h4>
         <FormControl>
         <TextField
           required
@@ -83,6 +83,9 @@ const MailingListSignUp = () => {
           margin="dense"
           value={firstName}
           onChange={(e) => setFirstName(e.target.value)}
+          style= {{
+            marginTop: '-10px'
+          }}
         />
         <TextField
           required
@@ -103,9 +106,11 @@ const MailingListSignUp = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
         <br/>
-        <Button variant="contained" type="submit" size='small' style={{width: '100px', backgroundColor: 'black'}}>
-          Submit
-        </Button>
+        <Grid xs={12}>
+          <Button variant="contained" type="submit" size='small' style={{width: '100px', backgroundColor: 'black', marginTop: '-20px'}}>
+            Sign Up
+          </Button>
+        </Grid>
         </FormControl>
       </form>
       </Grid>

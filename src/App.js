@@ -30,6 +30,7 @@ const theme = createTheme({
   },
   palette: {
     background: {
+      // default: '#757263',
       default: '#fbdecc',
     },
     text: {

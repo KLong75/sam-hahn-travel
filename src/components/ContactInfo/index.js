@@ -6,10 +6,10 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const ContactInfo = () => {
   return (
-    <Grid container justifyContent='center'>
+    <Grid container spacing={1} justifyContent='center'>
       <Grid xs={12} md={3}>
         <a href="tel:314-304-3196">
-        <span style={{fontWeight: 'bold'}}>314-304-3196</span>
+        <span style={{fontWeight: 'bolder', fontSize: '20px'}}>314-304-3196</span>
         </a>
       </Grid>
       <Grid xs={12} md={3}>
@@ -18,13 +18,14 @@ const ContactInfo = () => {
           target='_blank' 
           rel='noreferrer' 
           className='footer-instagram-link' 
-          aria-label='Link to Sam Hahn Travel Co Instagram'>
-          <InstagramIcon />
+          aria-label='Link to Sam Hahn Travel Co Instagram'
+        >
+          <InstagramIcon style={{marginBottom: '-10px', fontSize: '30px'}} />
         </a>  
       </Grid>
       <Grid xs={12} md={3}>
         <a href="mailto:sam@samhahntravel.com">
-          <span style={{fontWeight: 'bold'}}>sam@samhahntravel.com</span>
+          <span style={{fontWeight: 'bold', fontSize: '20px'}}>sam@samhahntravel.com</span>
         </a>
       </Grid>
       

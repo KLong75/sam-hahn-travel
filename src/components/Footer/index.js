@@ -12,11 +12,11 @@ import ContactInfo from "../ContactInfo";
 
 const Footer = () => {
   return (
-    <footer>
-      <Grid container spacing={2} justifyContent="center" textAlign='center' style={{marginTop: '40px'}}>
-        <Grid xs={12} style={{marginTop: '10px', marginBottom: '-20px'}}><ContactInfo /></Grid>
-        <Grid xs={12} style={{marginBottom: '-10px'}}><span> ©2023 </span></Grid>
-        <Grid xs={12}><img src={textLogo} alt="text logo" className="text-logo" style={{width: '175px', height: '21px', marginTop: '0px', marginBottom: '10px'}} /></Grid>
+    <footer style={{ backgroundColor: '#fbdecc'}}>
+      <Grid container spacing={2} justifyContent="center" textAlign='center' style={{marginTop: '10px'}}>
+        <Grid xs={12} style={{marginTop: '10px', marginBottom: '-10px'}}><ContactInfo /></Grid>
+        <Grid xs={12}><img src={textLogo} alt="text logo" className="text-logo" style={{width: '175px', height: '21px', marginTop: '-10px', marginBottom: ''}} /></Grid>
+        <Grid xs={12} style={{marginTop: '-20px', marginBottom: '10px', fontSize: '18px'}}><span> ©2023 </span></Grid>
       </Grid>
     </footer>  
   )
