@@ -32,11 +32,11 @@ const Home = () => {
       justifyContent='center' 
       textAlign='center' 
       style={{ 
-        backgroundImage: `url(${coverPic})`, 
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        height: '100vh',
+        // backgroundImage: `url(${coverPic})`, 
+        // backgroundSize: 'cover',
+        // backgroundPosition: 'center',
+        // backgroundRepeat: 'no-repeat',
+        // height: '100vh',
       }}
     >
 
@@ -61,7 +61,7 @@ const Home = () => {
           style={{
             fontSize: '90px',
             fontWeight: 'bolder',
-            marginTop: '-330px'
+            // marginTop: '-330px'
           }}
           >Unlock Inspired Travel
         </h1>

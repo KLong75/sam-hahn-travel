@@ -56,10 +56,10 @@ const Contact = () => {
       <Grid xs={0} md={3} style={{ marginTop: '-60px'}}></Grid> */}
 
       <Grid  xs={12} md={6} style={{ marginTop: '-80px'}} height=''>
-      <DisplayBox elevation={6} width=''>
+        <DisplayBox elevation={6} >
           <ScheduleAppointment  />
         </DisplayBox>
-        <DisplayBox elevation={6}>
+        <DisplayBox elevation={6} >
           <MailingListSignUp />
         </DisplayBox>
       </Grid>
