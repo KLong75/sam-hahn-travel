@@ -11,7 +11,7 @@ import Services from '../components/ServicesOffered';
 // import images
 import textLogo from '../assets/images/text_name_logo.png';
 // import inspiredBackground from '../assets/images/unsplash.jpg';
-import coverPic from '../assets/images/sam_cover_pic.jpg';
+// import coverPic from '../assets/images/sam_cover_pic.jpg';
 
 const DisplayCard = styled(Paper)(({ theme }) => ({
   // ...theme.typography.body2,

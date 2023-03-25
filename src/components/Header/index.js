@@ -50,12 +50,12 @@ const Header = () => {
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/contact">Contact</Link></li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/design-process">Design Process</Link></li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/self-booking">Self Booking Resources</Link></li>
-              {/* <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/book-hotel">Book A Hotel</Link></li> */}
             </ul>
           </nav>
         )}
         
         <Menu
+          className="mobile-menu"
           anchorEl={menuAnchor}
           open={Boolean(menuAnchor)}
           onClose={handleMenuClose}
@@ -76,7 +76,6 @@ const Header = () => {
               justifyContent: "center",
               alignItems: "center",
               color: "#fbdecc",
-              // border:"solid 10px #fbdecc",
               opacity: ".89",
             },
           }}

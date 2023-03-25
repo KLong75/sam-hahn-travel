@@ -42,7 +42,7 @@ const Contact = () => {
             marginBottom: '0px'}} />
       </Grid>
       <Grid xs={12} style={{ marginTop: '-40px'}}>
-        <h1 >Get In Touch</h1>
+        <h1 className='nothing-you-could-do'>Get In Touch</h1>
       </Grid>
 
       {/* <Grid xs={0} md={3} style={{ marginTop: '-40px'}}></Grid>
