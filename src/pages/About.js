@@ -7,6 +7,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import samPic from  '../assets/images/sam_pic_crop.jpg';
 import textLogo from '../assets/images/text_name_logo.png';
 
+import { DisplayBox } from '../utils/DisplayBox';
 
 const About = () => {
   return (
@@ -26,8 +27,9 @@ const About = () => {
     </Grid>
 
     <Grid container spacing={1} alignItems='center'  textAlign='' >
-      <Grid xs={12} md={6} >
-        <h1 style={{marginLeft: '40px'}} >Hi, I'm Sam.</h1>
+      <Grid xs={12} md={6} textAlign=''>
+        <DisplayBox elevation={6} height=''>
+        <h1 style={{marginLeft: '40px', marginTop: '10px'}} >Hi, I'm Sam.</h1>
 
         <p 
           style={{marginTop: '10px', marginBottom: '20px', marginLeft: '40px', marginRight: '30px'}}>
@@ -48,9 +50,11 @@ const About = () => {
           style={{marginTop: '10px', marginBottom: '20px', marginLeft: '40px', marginRight: '30px'}}>
             If you are looking to take your personal or professional travel to the next level, I can help. By working with carefully selected travel partners around the globe, I can assure my clients that they’ll be comfortable and supported while enjoying the experience of a new or long-beloved destination. 
         </p>
+        </DisplayBox>
       </Grid>
+      
       <Grid xs={12} md={6} sx={{ textAlign: 'center' }} >
-        <img src={samPic} alt='Sam Hahn' style={{width: '357px', height: '505px', marginTop: '20px'}}/>
+        <img src={samPic} alt='Sam Hahn' style={{width: '357px', height: '505px', marginTop: '20px', marginBottom: '15px'}}/>
       </Grid>
     </Grid>
     </>

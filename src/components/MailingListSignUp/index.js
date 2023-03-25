@@ -73,7 +73,7 @@ const MailingListSignUp = () => {
   return (
     <Grid container spacing={1} justifyContent='center' textAlign='center' >
     <form onSubmit={handleSubmit}>
-      <h4 style={{ textDecoration: 'underline', fontSize: '20px'}}>Join My Mailing List</h4>
+      <h4 style={{ textDecoration: 'underline', fontSize: '20px', marginTop:'0px'}}>Join My Mailing List</h4>
         <FormControl>
         <TextField
           required

@@ -10,11 +10,15 @@ import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Unstable_Grid2';
-import { styled } from '@mui/material/styles';
-import { Paper } from '@mui/material';
+
+// import { styled } from '@mui/material/styles';
+// import { Paper } from '@mui/material';
+
+
 
 
 const ContactForm = () => {
+
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
@@ -57,16 +61,15 @@ const ContactForm = () => {
     setInterestedIn('');
   }
 
-  
 
 
   return (
     <Grid container spacing={2} justifyContent='center' textAlign='center' >
     
     <form onSubmit={handleSubmit}>
-      <h4 style={{ textDecoration: 'underline', fontSize: '20px'}}>Send Me a Message</h4>
+      <h4 style={{ textDecoration: 'underline', fontSize: '20px', marginTop:'0px'}}>Send Me a Message</h4>
       <FormControl>
-        <TextField label='First Name' required value={firstName} onChange={handleFirstNameChange} size='small' margin='dense' style={{ marginTop: '-10px'}}/>
+        <TextField label='First Name' required value={firstName} onChange={handleFirstNameChange} size='small' margin='dense' style={{ marginTop: '-10px'}} />
         <TextField label='Last Name' required value={lastName} onChange={handleLastNameChange} size='small' margin='dense' />
         <TextField label='Email Address' required value={email} onChange={handleEmailChange} size='small' margin='dense' />
         <TextField label='Message' required value={message} onChange={handleMessageChange} margin='dense' multiline rows={8}/>
