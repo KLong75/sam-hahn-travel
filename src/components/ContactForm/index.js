@@ -1,6 +1,13 @@
 // import from React
 import React, { useState } from 'react';
 
+// import from emailjs
+import emailjs from 'emailjs-com';
+
+// import from react-toastify
+import { ToastContainer, toast, Zoom } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 // import from Material UI
 import TextField from '@mui/material/TextField';
 import Radio from '@mui/material/Radio';
@@ -14,7 +21,18 @@ import Grid from '@mui/material/Unstable_Grid2';
 // import { styled } from '@mui/material/styles';
 // import { Paper } from '@mui/material';
 
+// import images
+import frameGlobeLogoPeach from '../../assets/images/frame_globe_logo_peach.png';
 
+// import from utils
+import { validateEmail } from '../../utils/helpers';
+
+const ContactFormToast = ({message, icon}) => (
+  <div>
+    <img src={frameGlobeLogoPeach} alt="frame globe logo peach" style={{width: '100px', height: '100px', borderRadius: '50%', border: '1px solid #fbdecc'}}/>
+    <p style={{color: '#fbdecc', fontSize: '20px', marginTop: '10px'}}>{message}</p>
+  </div>
+)
 
 
 const ContactForm = () => {
@@ -24,6 +42,8 @@ const ContactForm = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [interestedIn, setInterestedIn] = useState('');
+
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleFirstNameChange = (e) => {
     setFirstName(e.target.value);
@@ -49,9 +69,38 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(firstName, lastName, email, message, interestedIn);
-    // console.log with template literals
+
+    const isValid = validateEmail(email);
+      if (!isValid) {   
+        setErrorMessage('Please enter a valid email address.');
+        return;
+      } else {
+        setErrorMessage('');
+      }
+    
     console.log(`First Name: ${firstName}, Last Name: ${lastName}, Email: ${email}, Message: ${message}, Interested In: ${interestedIn}`);
+
+    const templateParams = {
+      firstName: firstName,
+      lastName: lastName,
+      email: email,
+      message: message,
+      interestedIn: interestedIn
+    };
+
+    emailjs.send(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID, 
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID_CONTACT_FORM, 
+      templateParams, 
+      process.env.REACT_APP_EMAILJS_USER_ID
+    )
+      .then((result) => {
+        console.log(result.text);
+        console.log(firstName, lastName, email, message, interestedIn);
+        toast(<ContactFormToast style={{color: '#fbdecc' }} message='Thank you for message! I will be in touch soon!' icon={frameGlobeLogoPeach}/>);
+      }, (error) => {
+        console.log(error.text);
+      });
 
     // clear input fields
     setFirstName('');
@@ -59,7 +108,7 @@ const ContactForm = () => {
     setEmail('');
     setMessage('');
     setInterestedIn('');
-  }
+  };
 
 
 
@@ -71,7 +120,17 @@ const ContactForm = () => {
       <FormControl>
         <TextField label='First Name' required value={firstName} onChange={handleFirstNameChange} size='small' margin='dense' style={{ marginTop: '-10px'}} />
         <TextField label='Last Name' required value={lastName} onChange={handleLastNameChange} size='small' margin='dense' />
-        <TextField label='Email Address' required value={email} onChange={handleEmailChange} size='small' margin='dense' />
+        <TextField 
+          label='Email Address' 
+          required 
+          value={email} 
+          onChange={handleEmailChange} 
+          size='small' 
+          margin='dense' 
+          error={errorMessage !== ''}
+          helperText={<span style={{color: ''}}>{errorMessage}</span>}
+
+        />
         <TextField label='Message' required value={message} onChange={handleMessageChange} margin='dense' multiline rows={8}/>
         <FormLabel id="interested-in">Interested In</FormLabel>
           <RadioGroup
@@ -103,6 +162,15 @@ const ContactForm = () => {
         </Grid>
       </FormControl>
     </form>
+
+    <ToastContainer
+          position="top-center"
+          autoClose={5000}
+          transition={Zoom}
+          theme="dark"
+          style={{ color: '#fbdecc' }}
+          progressStyle={{ backgroundColor: '#fbdecc' }}
+        />
     
     </Grid>
   );

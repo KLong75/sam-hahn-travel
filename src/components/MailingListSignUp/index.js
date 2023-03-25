@@ -39,7 +39,7 @@ const MailingListSignUp = () => {
 
     const isValid = validateEmail(email);
       if (!isValid) {   
-        setErrorMessage('Please enter a valid email address');
+        setErrorMessage('Please enter a valid email address.');
         return;
       } else {
         setErrorMessage('');
@@ -55,7 +55,7 @@ const MailingListSignUp = () => {
 
     emailjs.send(
       process.env.REACT_APP_EMAILJS_SERVICE_ID, 
-      process.env.REACT_APP_EMAILJS_TEMPLATE_ID, 
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID_MAILING_LIST, 
       templateParams, 
       process.env.REACT_APP_EMAILJS_USER_ID
     )
@@ -107,7 +107,7 @@ const MailingListSignUp = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             error={errorMessage !== ''}
-            helperText={errorMessage}
+            helperText={<span style={{color: ''}}>{errorMessage}</span>}
           />
           <br/>
           <Grid xs={12}>
@@ -120,7 +120,7 @@ const MailingListSignUp = () => {
         
         <ToastContainer
           position="top-center"
-          autoClose={3000}
+          autoClose={5000}
           transition={Zoom}
           theme="dark"
           style={{ color: '#fbdecc' }}
