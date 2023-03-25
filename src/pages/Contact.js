@@ -12,7 +12,7 @@ import ScheduleAppointment from '../components/ScheduleAppointment';
 
 // import images
 import textLogo from '../assets/images/text_name_logo.png';
-import landscapePic from '../assets/images/unsplash3.jpg'
+// import landscapePic from '../assets/images/unsplash3.jpg'
 
 // import utils
 import { DisplayBox } from '../utils/DisplayBox';
@@ -41,32 +41,38 @@ const Contact = () => {
             maxWidth: '95%',
             marginBottom: '0px'}} />
       </Grid>
-      <Grid xs={12} style={{ marginTop: '-40px'}}><h1 >Get In Touch</h1></Grid>
-      <Grid xs={2} style={{ marginTop: '-40px'}}></Grid>
+      <Grid xs={12} style={{ marginTop: '-40px'}}>
+        <h1 >Get In Touch</h1>
+      </Grid>
+
+      {/* <Grid xs={0} md={3} style={{ marginTop: '-40px'}}></Grid>
     
-      <Grid xs={12} md={6} style={{ marginTop: '-40px'}} height=''>
+      <Grid xs={12} md={4} style={{ marginTop: '-40px'}} height=''>
         <DisplayBox elevation={6} width=''>
           <ScheduleAppointment  />
         </DisplayBox>
       </Grid>
 
-      <Grid xs={2} style={{ marginTop: '-60px'}}></Grid>
+      <Grid xs={0} md={3} style={{ marginTop: '-60px'}}></Grid> */}
 
-      <Grid  xs={12} md={6} style={{ marginTop: '-40px'}} height='45vh'>
+      <Grid  xs={12} md={6} style={{ marginTop: '-80px'}} height=''>
+      <DisplayBox elevation={6} width=''>
+          <ScheduleAppointment  />
+        </DisplayBox>
         <DisplayBox elevation={6}>
           <MailingListSignUp />
         </DisplayBox>
       </Grid>
      
-      <Grid xs={12} md={6} style={{ marginTop: '-40px'}}>
+      <Grid xs={12} md={6} style={{ marginTop: '-80px'}}>
         <DisplayBox elevation={6}>
           <ContactForm />
         </DisplayBox>
       </Grid>
 
-      <Grid xs={12} md={6} style={{ marginTop: ''}}  >
+      {/* <Grid xs={12} md={6} style={{ marginTop: ''}}  >
         <img src={landscapePic} alt='' style={{width: '500px', height: '369px', marginTop: '', marginBottom: ''}}/>
-      </Grid>
+      </Grid> */}
       
     </Grid>
     

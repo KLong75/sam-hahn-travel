@@ -10,5 +10,4 @@ export const DisplayBox = styled(Paper)(({ theme }) => ({
   backgroundColor: '#fbdecc',
   // opacity: '0.8',
   // height: '80%'
-  
 }));

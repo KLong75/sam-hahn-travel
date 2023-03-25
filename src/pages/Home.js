@@ -10,12 +10,12 @@ import Services from '../components/ServicesOffered';
 
 // import images
 import textLogo from '../assets/images/text_name_logo.png';
-import inspiredBackground from '../assets/images/unsplash.jpg';
+// import inspiredBackground from '../assets/images/unsplash.jpg';
 import coverPic from '../assets/images/sam_cover_pic.jpg';
 
 const DisplayCard = styled(Paper)(({ theme }) => ({
   // ...theme.typography.body2,
-  // padding: theme.spacing(2),
+  padding: theme.spacing(1),
   margin: theme.spacing(4),
   textAlign: 'center',
   // color: theme.palette.text.secondary,
@@ -82,7 +82,7 @@ const Home = () => {
 
       <Grid xs={12} md={6} >
       <DisplayCard elevation={6}>
-        <h3 style={{fontWeight: 'bolder', color: 'black', fontSize: '32px', marginBottom: '-10px', textDecoration: 'underline'}}>Customized Service</h3>
+        <h3 style={{fontWeight: 'bolder', color: 'black', fontSize: '32px', marginBottom: '-10px', marginTop: '0px', textDecoration: 'underline'}}>Customized Service</h3>
         
         <p 
           style={{margin: '18px', fontWeight: 'bolder', fontSize: '24px', textAlign: 'left'}}>
@@ -93,7 +93,7 @@ const Home = () => {
 
       <Grid xs={12} md={6}>
         <DisplayCard elevation={6}>
-        <h3 className='' style={{fontWeight: 'bolder', color: 'black', fontSize: '32px', marginBottom: '-10px', textDecoration: 'underline'}}>Time and Ease</h3>
+        <h3 className='' style={{fontWeight: 'bolder', color: 'black', fontSize: '32px', marginBottom: '-10px', marginTop: '0px', textDecoration: 'underline'}}>Time and Ease</h3>
         <p 
           style={{margin: '18px', fontWeight: 'bolder', fontSize: '24px', textAlign: 'left'}} >
             Your vacation starts at the planning stage when you leave the heavy lifting and time-consuming research to an expert who will deliver curated options aligned with your personal values, schedule, and expectations.
