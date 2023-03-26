@@ -21,11 +21,11 @@ const SelfBooking = () => {
           src={textLogo} 
           alt="text logo" 
           className="text-logo" 
-          style={{width: '526px', height: 'auto', maxWidth: '95%', marginBottom: '30px'}} 
+          style={{width: '526px', height: 'auto', maxWidth: '95%', marginBottom: '20px'}} 
         />
       </Grid>
       <Grid xs={12}>
-        <h1>Self Booking Resources</h1>
+        <h1 className='nothing-you-could-do' style={{fontSize: '42px'}}>Self Booking Resources</h1>
       </Grid>
       <Grid xs={12} md={6}>
         <DisplayBox elevation={6} style={{height: 'auto'}}>

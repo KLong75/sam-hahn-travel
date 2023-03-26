@@ -67,14 +67,12 @@ const Home = () => {
         </h1>
       </Grid>
 
-      
-
       </Grid>
 
       <Grid container spacing={2} justifyContent='center' textAlign='center' style={{ backGroundColor: '#7a6f6f'}}>
 
       <Grid xs={12}>
-        <h2 style={{fontSize: '42px', fontWeight: 'bolder', marginTop: ''}}>Discover the Value of a Travel Designer</h2>
+        <h2 className='nothing-you-could-do' style={{fontSize: '42px', fontWeight: 'bolder', marginTop: ''}}>Discover the Value of a Travel Designer</h2>
       </Grid>
 
 

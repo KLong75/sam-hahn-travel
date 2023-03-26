@@ -19,7 +19,7 @@ const BookHotel = () => {
         <h1>Book a hotel on your own and receive VIP perks!</h1>
       </Grid>
       <Grid xs={12} style={{margin: '20px'}}>
-        <img src={Virtuoso} alt="" style={{width: '401px', height: '130px'}} />
+        <img src={Virtuoso} alt="" style={{width: '401px', height: 'auto', maxWidth: '100%'}} />
       </Grid>
       <Grid xs={12} textAlign='left'>
         <p style={{margin: '20px', fontSize: '18px'}} >My clients receive exclusive perks with their hotel bookings through my partnership with Virtuoso. If you already know where you want to go and do not require my hotel matchmaking service, you can now make your own hotel reservations using the Virtuoso Hotel Booking Tool.

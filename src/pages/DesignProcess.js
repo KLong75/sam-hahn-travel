@@ -28,7 +28,7 @@ const DesignProcess = () => {
         />
       </Grid>
       <Grid xs={12}>
-        <h1>Design Process / How It Works</h1>
+        <h1 className='nothing-you-could-do' style={{ fontSize: '42px'}}>Design Process / How It Works</h1>
       </Grid>
       <Partners />
     </Grid>

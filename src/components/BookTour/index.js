@@ -19,7 +19,7 @@ const BookTour = () => {
         <h1>Experience the World with Leading Experts</h1>
       </Grid>
       <Grid xs={12} style={{margin: '19px'}}>
-        <img src={Context} alt="Context Travel Logo" />
+        <img src={Context} alt="Context Travel Logo" style={{width: '301px', height: 'auto', maxWidth: '100%'}} />
       </Grid>
       <Grid xs={12} textAlign='left'>
         <p style={{margin: '20px', fontSize: '18px'}} >"Personal Tours for the Intentional Traveler" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Tempor orci dapibus ultrices in iaculis nunc sed augue.

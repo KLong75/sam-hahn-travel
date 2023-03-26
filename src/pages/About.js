@@ -24,12 +24,16 @@ const About = () => {
           }} 
         />
       </Grid>
+      <Grid xs={12}>
+        <h1 className='nothing-you-could-do' style={{fontSize: '42px'}}>Hi, I'm Sam.</h1>
+      </Grid>
+
     </Grid>
 
     <Grid container spacing={1} alignItems='center'  textAlign='' >
       <Grid xs={12} md={6} textAlign=''>
-        <DisplayBox elevation={6} height=''>
-        <h1 style={{marginLeft: '40px', marginTop: '10px'}} >Hi, I'm Sam.</h1>
+        <DisplayBox elevation={6} style={{ fontSize: '18px', fontWeight: 'bold'}}>
+        {/* <h1 className='nothing-you-could-do' style={{marginLeft: '40px', marginTop: '10px'}} >Hi, I'm Sam.</h1> */}
 
         <p 
           style={{marginTop: '10px', marginBottom: '20px', marginLeft: '40px', marginRight: '30px'}}>

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { IconButton, Menu, MenuItem } from '@mui/material';
 // import { styled } from '@mui/material/styles';
 import MenuIcon from '@mui/icons-material/Menu';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 // import images
 import GlobeKeyLogo from '../GlobeKeyLogo';
@@ -45,11 +46,32 @@ const Header = () => {
         ) : (
           <nav style={{ margin: 0, padding: 0 }}>
             <ul style={{ display: 'flex', listStyle: 'none', margin: 0, padding: 0 }}>
-              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/">Home</Link></li>
-              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/about">About</Link></li>
-              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/contact">Contact</Link></li>
-              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/design-process">Design Process</Link></li>
-              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}><Link to="/self-booking">Self Booking Resources</Link></li>
+              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
+                  <Link to="/">Home</Link>
+              </li>
+              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
+                <Link to="/about">About</Link>
+              </li>
+              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
+                <Link to="/contact">Contact</Link>
+              </li>
+              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
+                <Link to="/design-process">Design Process</Link>
+              </li>
+              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
+                <Link to="/self-booking">Self Booking Resources</Link>
+              </li>
+              <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
+                <a 
+                  href='https://www.instagram.com/samhahntravelco/' 
+                  target='_blank' 
+                  rel='noreferrer' 
+                  className='footer-instagram-link' 
+                  aria-label='Link to Sam Hahn Travel Co Instagram'
+                >
+                  <InstagramIcon style={{ fontSize: '30px'}} />
+                </a>  
+              </li>
             </ul>
           </nav>
         )}
@@ -89,13 +111,68 @@ const Header = () => {
             component={Link} 
             to="/" 
             onClick={handleMenuClose} 
-            style={{ padding: '18px', fontSize: '25px' }}>
-              Home
+            style=
+              {{ 
+                padding: '18px', 
+                fontSize: '25px' }}
+            >Home
           </MenuItem>
-          <MenuItem component={Link} to="/about" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>About</MenuItem>
-          <MenuItem component={Link} to="/contact" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Contact</MenuItem>
-          <MenuItem component={Link} to="/design-process" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Design Process</MenuItem>
-          <MenuItem component={Link} to="/self-booking" onClick={handleMenuClose} style={{ padding: '18px', fontSize: '25px' }}>Self Booking Resources</MenuItem>
+          <MenuItem 
+            component={Link} 
+            to="/about" 
+            onClick={handleMenuClose} 
+            style={{ 
+              padding: '18px', 
+              fontSize: '25px' 
+            }}
+            >About
+          </MenuItem>
+          <MenuItem 
+            component={Link} 
+            to="/contact" 
+            onClick={handleMenuClose} 
+            style=
+              {{ 
+                padding: '18px', 
+                fontSize: '25px' 
+              }}
+            >Contact
+          </MenuItem>
+          <MenuItem 
+            component={Link} 
+            to="/design-process" 
+            onClick={handleMenuClose} 
+            style=
+              {{ 
+                padding: '18px', 
+                fontSize: '25px' 
+              }}
+            >Design Process
+          </MenuItem>
+          <MenuItem 
+            component={Link} 
+            to="/self-booking" 
+            onClick={handleMenuClose} 
+            style=
+              {{ 
+                padding: '18px', 
+                fontSize: '25px' 
+              }}
+            >Self Booking Resources
+          </MenuItem>
+          <MenuItem style={{padding: '18px'}}>
+            <a
+              href='https://www.instagram.com/samhahntravelco/'
+              target='_blank'
+              rel='noreferrer'
+              className=''
+              aria-label='Link to Sam Hahn Travel Co Instagram'
+              
+            >
+              <InstagramIcon style={{ fontSize: '30px', color: '#fbdecc'}} />
+            </a>
+          </MenuItem>
+
         </Menu>
       </div>
     </header>
