@@ -67,44 +67,38 @@ const Home = () => {
         </h1>
       </Grid>
 
-      </Grid>
+    </Grid>
 
-      <Grid container spacing={2} justifyContent='center' textAlign='center' style={{ backGroundColor: '#7a6f6f'}}>
+    <Grid container spacing={2} justifyContent='center' textAlign='center' style={{ backGroundColor: '#7a6f6f'}}>
 
       <Grid xs={12}>
-        <h2 className='nothing-you-could-do home-subheadline' style={{fontSize: '42px', fontWeight: 'bolder', marginTop: ''}}>Discover the Value of a Travel Designer</h2>
+        <h2 className='nothing-you-could-do home-sub-headline' style={{fontSize: '42px', fontWeight: 'bolder', marginTop: ''}}>Discover the Value of a Travel Designer</h2>
       </Grid>
 
-
-
-
       <Grid xs={12} md={6} >
-      <DisplayCard elevation={6}>
-        <h3 style={{fontWeight: 'bolder', color: 'black', fontSize: '32px', marginBottom: '-10px', marginTop: '0px', textDecoration: 'underline'}}>Customized Service</h3>
-        
-        <p 
-          style={{margin: '18px', fontWeight: 'bolder', fontSize: '24px', textAlign: 'left'}}>
-            Every journey can be made uniquely yours with a trusted professional who understands you as well as the places you are going. I will match you with the right combination of pace, trusted outfitters, lodging partners, and local experiences.
-        </p>
+        <DisplayCard elevation={6}>
+          <h3 style={{fontWeight: 'bolder', color: 'black', fontSize: '32px', marginBottom: '-10px', marginTop: '0px', textDecoration: 'underline'}}>Customized Service</h3>
+          <p 
+            style={{margin: '18px', fontWeight: 'bolder', fontSize: '24px', textAlign: 'left'}}>
+              Every journey can be made uniquely yours with a trusted professional who understands you as well as the places you are going. I will match you with the right combination of pace, trusted outfitters, lodging partners, and local experiences.
+          </p>
         </DisplayCard>
       </Grid>
 
       <Grid xs={12} md={6}>
         <DisplayCard elevation={6}>
-        <h3 className='' style={{fontWeight: 'bolder', color: 'black', fontSize: '32px', marginBottom: '-10px', marginTop: '0px', textDecoration: 'underline'}}>Time and Ease</h3>
-        <p 
-          style={{margin: '18px', fontWeight: 'bolder', fontSize: '24px', textAlign: 'left'}} >
+          <h3 className='' style={{fontWeight: 'bolder', color: 'black', fontSize: '32px', marginBottom: '-10px', marginTop: '0px', textDecoration: 'underline'}}>Time and Ease</h3>
+          <p 
+            style={{margin: '18px', fontWeight: 'bolder', fontSize: '24px', textAlign: 'left'}} >
             Your vacation starts at the planning stage when you leave the heavy lifting and time-consuming research to an expert who will deliver curated options aligned with your personal values, schedule, and expectations.
-        </p>
+          </p>
         </DisplayCard>
-
       </Grid>
 
       <Grid xs={12} style={{ marginBottom: '20px'}}>
-        
         <Services />
-        
       </Grid>
+
     </Grid>
     </>
   );

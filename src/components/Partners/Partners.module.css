@@ -1,71 +1,84 @@
 
 .belmondBelliniLogo {
   width: 309px;
-  height: 152px;
+  height: auto;
+  max-width: 99%;
 }
 
 .belmondLogo {
   width: 289;
-  height: 124px;
+  height: auto;
+  max-width: 99%;
 }
 
 .diamondLogo {
   height: 100px;
-  width: 247px
-  
+  height: auto;
+  max-width: 99%;
 }
 
 .fourSeasonsLogo {
   width: 333px;
-  height: 156px;
+  height: auto;
+  max-width: 99%;
 }
 
 .hyattPriveLogo {
-  width: auto;
-  height: 155px;
+  width: 200px;
+  height: auto;
+  max-width: 99%;
 }
 
 .inTheKnowLogo {
   width: 300px;
   height: auto;
+  max-width: 99%;
 }
 
 .jumeriahLogo {
   width: 247px;
-  height: 91px;
+  height: auto;
+  max-width: 99%;
 }
 
 .mandarinLogo {
   width: 247px;
-  height: 185px;
+  height: auto;
+  max-width: 90%;
 }
 
 .marriottStarsLogo {
   width: 288px;
-  height: 179px;
+  height: auto;
+  max-width: 99%;
 }
 
 .oetkerCollectionLogo {
   width: 300px;
-  height: 163px;
+  height: auto;
+  max-width: 99%;
 }
 
 .relaisLogo {
   width: 247px;
-  height: 220px;
+  height: auto;
+  max-width: 90%;
 }
 
 .rosewoodLogo {
   width: 333px;
-  height: 79px;
+  height: auto;
+  max-width: 99%;
 }
 
 .virtuosoLogo {
   width: 301px;
-  height: 97px;
+  height: auto;
+  max-width: 99%;
 }
 
 .contextLogo {
   width: 271px;
-  height: 117px;
+  height: auto;
+  max-width: 99%;
 }

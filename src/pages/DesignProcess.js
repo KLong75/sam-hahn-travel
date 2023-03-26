@@ -14,6 +14,7 @@ import Partners from "../components/Partners";
 const DesignProcess = () => {
   return (
     <Grid container justifyContent='center' textAlign='center' >
+    
       {/* <Grid xs={12}>
         <img 
           src={textLogo} 
@@ -27,13 +28,16 @@ const DesignProcess = () => {
           }} 
         />
       </Grid> */}
+
       <Grid xs={12}>
         <h1 className='nothing-you-could-do' style={{ fontSize: '42px'}}>How It Works</h1>
       </Grid>
       <Grid xs={12}>
      
       </Grid>
+
       <Partners />
+
     </Grid>
   );
 };

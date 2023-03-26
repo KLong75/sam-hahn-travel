@@ -52,6 +52,10 @@ html {
     font-size: 70px !important;
   }
 
+  .home-sub-headline {
+    font-size: 40px !important;
+  }
+
   .footer-logo {
     display: none;
     
@@ -62,11 +66,19 @@ html {
   .home-headline {
     font-size: 65px !important;
   }
+
+  .home-sub-headline {
+    font-size: 36px !important;
+  }
 }
 
 @media screen and (max-width: 700px) {
   .home-headline {
     font-size: 55px !important;
+  }
+
+  .home-sub-headline {
+    font-size: 32px !important;
   }
 }
 
@@ -74,17 +86,29 @@ html {
   .home-headline {
     font-size: 50px !important;
   }
-}
 
-@media screen and (max-width: 500px) {
-  .home-headline {
-    font-size: 42px !important;
+  .home-sub-headline {
+    font-size: 28px !important;
   }
 }
 
 @media screen and (max-width: 500px) {
   .home-headline {
     font-size: 42px !important;
+  }
+
+  .home-sub-headline {
+    font-size: 24px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home-headline {
+    font-size: 42px !important;
+  }
+
+  .home-sub-headline {
+    font-size: 20px !important;
   }
 }
 

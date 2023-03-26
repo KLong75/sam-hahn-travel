@@ -62,7 +62,7 @@ const MailingListSignUp = () => {
       .then((result) => {
         console.log(result.text);
         console.log(firstName, lastName, email);
-        toast(<MailingListToast style={{color: '#fbdecc' }} message='Thank you for joining my mailing list! I will be in touch soon!' icon={frameGlobeLogoPeach}/>);
+        toast(<MailingListToast style={{ color: '#fbdecc' }} message='Thank you for joining my mailing list! I will be in touch soon!' icon={frameGlobeLogoPeach}/>);
       }, (error) => {
         console.log(error.text);
       });
@@ -123,7 +123,7 @@ const MailingListSignUp = () => {
           autoClose={5000}
           transition={Zoom}
           theme="dark"
-          style={{ color: '#fbdecc' }}
+          // style={{ width: '90%'}}
           progressStyle={{ backgroundColor: '#fbdecc' }}
         />
        
