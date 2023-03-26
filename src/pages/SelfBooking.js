@@ -8,7 +8,7 @@ import BookHotel from '../components/BookHotel';
 import BookTour from '../components/BookTour';
 
 // import images
-import textLogo from '../assets/images/text_name_logo.png';
+// import textLogo from '../assets/images/text_name_logo.png';
 
 import { DisplayBox } from '../utils/DisplayBox';
 
@@ -16,14 +16,14 @@ const SelfBooking = () => {
   return (
     
     <Grid container justifyContent='center' textAlign='center' spacing={4} >
-      <Grid xs={12}>
+      {/* <Grid xs={12}>
         <img 
           src={textLogo} 
           alt="text logo" 
           className="text-logo" 
           style={{width: '526px', height: 'auto', maxWidth: '95%', marginBottom: '20px'}} 
         />
-      </Grid>
+      </Grid> */}
       <Grid xs={12}>
         <h1 className='nothing-you-could-do' style={{fontSize: '42px'}}>Self Booking Resources</h1>
       </Grid>

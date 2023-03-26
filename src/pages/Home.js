@@ -9,7 +9,7 @@ import { Paper } from '@mui/material';
 import Services from '../components/ServicesOffered';
 
 // import images
-import textLogo from '../assets/images/text_name_logo.png';
+// import textLogo from '../assets/images/text_name_logo.png';
 // import inspiredBackground from '../assets/images/unsplash.jpg';
 // import coverPic from '../assets/images/sam_cover_pic.jpg';
 
@@ -40,7 +40,7 @@ const Home = () => {
       }}
     >
 
-      <Grid xs={12}>
+      {/* <Grid xs={12}>
         <img 
           src={textLogo} 
           alt='text logo' 
@@ -49,11 +49,11 @@ const Home = () => {
             width: '526px', 
             height: 'auto', 
             maxWidth: '95%',
-            marginTop: '20px',
+            // marginTop: '20px',
            
           }} 
         />
-      </Grid>
+      </Grid> */}
 
       <Grid xs={12} >
         <h1 
@@ -72,7 +72,7 @@ const Home = () => {
       <Grid container spacing={2} justifyContent='center' textAlign='center' style={{ backGroundColor: '#7a6f6f'}}>
 
       <Grid xs={12}>
-        <h2 className='nothing-you-could-do' style={{fontSize: '42px', fontWeight: 'bolder', marginTop: ''}}>Discover the Value of a Travel Designer</h2>
+        <h2 className='nothing-you-could-do home-subheadline' style={{fontSize: '42px', fontWeight: 'bolder', marginTop: ''}}>Discover the Value of a Travel Designer</h2>
       </Grid>
 
 

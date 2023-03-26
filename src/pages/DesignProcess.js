@@ -9,12 +9,12 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Partners from "../components/Partners";
 
 // import images
-import textLogo from '../assets/images/text_name_logo.png';
+// import textLogo from '../assets/images/text_name_logo.png';
 
 const DesignProcess = () => {
   return (
     <Grid container justifyContent='center' textAlign='center' >
-      <Grid xs={12}>
+      {/* <Grid xs={12}>
         <img 
           src={textLogo} 
           alt="text logo" 
@@ -26,9 +26,12 @@ const DesignProcess = () => {
             marginBottom: '30px'
           }} 
         />
+      </Grid> */}
+      <Grid xs={12}>
+        <h1 className='nothing-you-could-do' style={{ fontSize: '42px'}}>How It Works</h1>
       </Grid>
       <Grid xs={12}>
-        <h1 className='nothing-you-could-do' style={{ fontSize: '42px'}}>Design Process / How It Works</h1>
+     
       </Grid>
       <Partners />
     </Grid>

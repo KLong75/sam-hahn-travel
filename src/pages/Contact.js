@@ -11,7 +11,7 @@ import MailingListSignUp from '../components/MailingListSignUp';
 import ScheduleAppointment from '../components/ScheduleAppointment';
 
 // import images
-import textLogo from '../assets/images/text_name_logo.png';
+// import textLogo from '../assets/images/text_name_logo.png';
 // import landscapePic from '../assets/images/unsplash3.jpg'
 
 // import utils
@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     
     <Grid container spacing={6} justifyContent='center' textAlign='center' >
-      <Grid xs={12}>
+      {/* <Grid xs={12}>
         <img 
           src={textLogo} 
           alt="Sam Hahn Travel text logo" className="text-logo" 
@@ -40,7 +40,7 @@ const Contact = () => {
             height: 'auto', 
             maxWidth: '95%',
             marginBottom: '0px'}} />
-      </Grid>
+      </Grid> */}
       <Grid xs={12} style={{ marginTop: '-40px'}}>
         <h1 className='nothing-you-could-do' style={{ fontSize: '42px'}}>Get In Touch</h1>
       </Grid>

@@ -7,9 +7,11 @@ import { IconButton, Menu, MenuItem } from '@mui/material';
 // import { styled } from '@mui/material/styles';
 import MenuIcon from '@mui/icons-material/Menu';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import Grid from '@mui/material/Unstable_Grid2';
 
 // import images
 import GlobeKeyLogo from '../GlobeKeyLogo';
+import textLogo from '../../assets/images/text_name_logo.png';
 import frameGlobeLogoPeach from '../../assets/images/frame_globe_logo_peach.png';
 
 // import styles from './Header.module.css';
@@ -56,7 +58,7 @@ const Header = () => {
                 <Link to="/contact">Contact</Link>
               </li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
-                <Link to="/design-process">Design Process</Link>
+                <Link to="/how-it-works">How It Works</Link>
               </li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
                 <Link to="/self-booking">Self Booking Resources</Link>
@@ -140,14 +142,14 @@ const Header = () => {
           </MenuItem>
           <MenuItem 
             component={Link} 
-            to="/design-process" 
+            to="/how-it-works" 
             onClick={handleMenuClose} 
             style=
               {{ 
                 padding: '18px', 
                 fontSize: '25px' 
               }}
-            >Design Process
+            >How It Works
           </MenuItem>
           <MenuItem 
             component={Link} 
@@ -175,6 +177,25 @@ const Header = () => {
 
         </Menu>
       </div>
+      <Grid 
+        container 
+        spacing={1} 
+        justifyContent='center' 
+        textAlign='center' >
+        <Grid xs={12}>
+          <img 
+            src={textLogo} 
+            alt='text logo' 
+            className='text-logo'
+            style={{
+              width: '526px', 
+              height: 'auto', 
+              maxWidth: '100%',
+              maxHeight: '100%',
+            }} 
+          />
+        </Grid>
+      </Grid>
     </header>
   );
 }
