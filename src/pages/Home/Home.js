@@ -97,7 +97,7 @@ const Home = () => {
         </DisplayCard>
       </Grid>
 
-      <Grid xs={12} style={{ marginBottom: '20px'}}>
+      <Grid xs={12} style={{ marginTop: '-20px', marginBottom: '20px'}}>
         <Services />
       </Grid>
 
