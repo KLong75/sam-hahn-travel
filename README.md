@@ -72,4 +72,3 @@ For more information please see:
 For questions please contact:
 
 [kevinjlong75@gmail.com](mailto:kevinjlong75@gmail.com)
-
