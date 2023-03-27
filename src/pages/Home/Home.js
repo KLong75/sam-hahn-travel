@@ -11,6 +11,8 @@ import Services from '../../components/ServicesOffered';
 // import images
 // import textLogo from '../assets/images/text_name_logo.png';
 import pinkBlueLandscape from '../../assets/images/unsplash.jpg';
+import planeView from '../../assets/images/planeView.jpg';
+import Italy from '../../assets/images/Italy.jpg';
 // import coverPic from '../../assets/images/sam_cover_pic.jpg';
 
 // import styles
@@ -31,7 +33,7 @@ const Home = () => {
     <>  
     <Grid container 
       className='container' 
-      spacing={1} 
+      spacing={0} 
       justifyContent='center' 
       textAlign='center' 
       style={{ 
@@ -52,7 +54,7 @@ const Home = () => {
             zIndex: '2',
             position: 'relative',
             marginTop: '20px',
-            marginBottom: '-160px',
+            marginBottom: '-150px',
           
           }}
           >Unlock Inspired Travel
@@ -60,12 +62,12 @@ const Home = () => {
       </Grid>
 
       <Grid xs={12} >
-        <img src={pinkBlueLandscape} alt='cover pic' style={{width: '98%', height: 'auto'}} />
+        <img src={pinkBlueLandscape} alt='cover pic' style={{width: '98%', height: 'auto', marginTop: '-18px'}} />
       </Grid>
 
     </Grid>
 
-    <Grid container spacing={2} justifyContent='center' textAlign='center' style={{ backGroundColor: '#7a6f6f'}}>
+    <Grid container spacing={0} justifyContent='center' textAlign='center' style={{ backGroundColor: '#7a6f6f'}}>
 
       <Grid xs={12}>
         <h2 className={`nothing-you-could-do home-sub-headline ${styles.homeSubHeadline}`} style={{fontSize: '42px', fontWeight: 'bolder', marginBottom: '0px'}}>The Value of a Travel Designer</h2>
@@ -79,6 +81,7 @@ const Home = () => {
             style={{margin: '18px', fontWeight: 'bolder', fontSize: '24px', textAlign: 'left'}}>
               Every journey can be made uniquely yours with a trusted professional who understands you as well as the places you are going. I will match you with the right combination of pace, trusted outfitters, lodging partners, and local experiences.
           </p>
+          <img src={planeView} alt='plane view' style={{width: '100%', height: 'auto', marginTop: '0px'}} />
         </DisplayCard>
       </Grid>
 
@@ -90,6 +93,7 @@ const Home = () => {
             style={{margin: '18px', fontWeight: 'bolder', fontSize: '24px', textAlign: 'left'}} >
             Your vacation starts at the planning stage when you leave the heavy lifting and time-consuming research to an expert who will deliver curated options aligned with your personal values, schedule, and expectations.
           </p>
+          <img src={Italy} alt='Italy' style={{width: '100%', height: 'auto', marginTop: '0px'}} />
         </DisplayCard>
       </Grid>
 

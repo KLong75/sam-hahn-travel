@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 // import images/logos
 import Virtuoso from '../../assets/partner_logos/Virtuoso.png';
 import luggageLogo from '../../assets/sam_logos/luggage.png';
+import dominicanHotel from '../../assets/images/dominicanHotel.jpg';
 
 const BookHotel = () => {
   return (
@@ -42,9 +43,10 @@ const BookHotel = () => {
           href='https://www.virtuoso.com/advisor/samhahn52221/travel/' 
           target='_blank' 
           size='small' 
-          style={{ backgroundColor: 'black'}}>
+          style={{ backgroundColor: 'black', marginTop: '-20px', marginBottom: '30px'}}>
           Book Hotel Now
         </Button>
+        <img src={dominicanHotel} alt="dominican hotel" style={{width: '100%', height: 'auto'}} />
       </Grid>
     </Grid>
   );

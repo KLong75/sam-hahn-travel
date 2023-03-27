@@ -33,7 +33,6 @@ const About = () => {
     <Grid container spacing={1} alignItems='center'  textAlign='' >
       <Grid xs={12} md={6} textAlign=''>
         <DisplayBox elevation={6} style={{ fontSize: '18px', fontWeight: 'bold'}}>
-        {/* <h1 className='nothing-you-could-do' style={{marginLeft: '40px', marginTop: '10px'}} >Hi, I'm Sam.</h1> */}
 
         <p 
           style={{marginTop: '10px', marginBottom: '20px', marginLeft: '40px', marginRight: '30px'}}>
@@ -56,10 +55,13 @@ const About = () => {
         </p>
         </DisplayBox>
       </Grid>
-      
+
       <Grid xs={12} md={6} sx={{ textAlign: 'center' }} >
-        <img src={samPic} alt='Sam Hahn' style={{width: '357px', height: '505px', marginTop: '20px', marginBottom: '15px'}}/>
+        <DisplayBox elevation={6}>
+          <img src={samPic} alt='Sam Hahn' style={{width: '80%', height: 'auto', marginTop: '20px', marginBottom: '15px'}}/>
+        </DisplayBox>
       </Grid>
+
     </Grid>
     </>
   );

@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 
 import Context from '../../assets/partner_logos/ContextTravel.png';
 import globeLogo from '../../assets/sam_logos/globe.png';
+import tourPic from '../../assets/images/tourPic.jpg';
 
 const BookTour = () => {
   return (
@@ -42,9 +43,10 @@ const BookTour = () => {
           href='https://www.contexttravel.com/?ref=HAHN' 
           target='_blank' 
           size='small' 
-          style={{ backgroundColor: 'black'}}>
+          style={{ backgroundColor: 'black', marginTop: '-20px', marginBottom: '30px'}}>
           Book Tour Now
         </Button>
+        <img src={tourPic} alt="dominican hotel" style={{width: '100%', height: 'auto'}} />
       </Grid>
     </Grid>
   );
