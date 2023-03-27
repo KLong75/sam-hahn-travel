@@ -116,7 +116,7 @@ const ContactForm = () => {
     <Grid container spacing={2} justifyContent='center' textAlign='center' >
     
     <form onSubmit={handleSubmit}>
-      <h4 style={{ textDecoration: 'underline', fontSize: '20px', marginTop:'0px'}}>Send Me a Message</h4>
+      <h4 style={{ fontSize: '20px', marginTop:'0px'}}>Send Me a Message</h4>
       <FormControl>
         <TextField label='First Name' required value={firstName} onChange={handleFirstNameChange} size='small' margin='dense' style={{ marginTop: '-10px'}} />
         <TextField label='Last Name' required value={lastName} onChange={handleLastNameChange} size='small' margin='dense' />

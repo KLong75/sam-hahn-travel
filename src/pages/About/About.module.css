@@ -1,0 +1,43 @@
+/* begin media queries */
+@media screen and (max-width: 600px) {
+  .aboutHeadline {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important; 
+  }
+
+  .aboutParagraph {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aboutParagraph {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .aboutHeadline {
+    font-size: 36px !important;
+  }
+  .aboutParagraph {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  .aboutHeadline {
+    font-size: 32px !important;
+  }
+
+  .aboutParagraph {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .aboutHeadline {
+    font-size: 30px !important;
+  }
+}

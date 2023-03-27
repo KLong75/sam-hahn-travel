@@ -10,7 +10,7 @@ const ScheduleAppointment = () => {
   return (
     <Grid container spacing={1} justifyContent='center' textAlign='center' >
     <section >
-      <h4 style={{ textDecoration: 'underline', fontSize: '20px', marginTop:'0px'}}>Schedule an Appointment</h4>
+      <h4 style={{ fontSize: '20px', marginTop:'0px'}}>Schedule an Appointment</h4>
         <Grid xs={12}>
         <a 
           href='https://calendly.com/samhahntrav/30min' 

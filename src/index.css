@@ -135,6 +135,7 @@ html {
 @media screen and (max-width: 400px) {
   .home-headline {
     font-size: 34px !important;
+    margin-bottom: '-100px' !important;
   }
 
   .home-sub-headline {

@@ -31,7 +31,7 @@ const Services = () => {
       <Grid container spacing={2} textAlign='center'>
       
         <Grid xs={12}>
-          <h3 className='' style={{fontWeight: 'bolder', color: 'black', fontSize: '32px', textDecoration: 'underline', marginBottom: '-20px'}}>
+          <h3 className='nothing-you-could-do' style={{fontWeight: 'bolder', color: 'black', fontSize: '32px', marginBottom: '-20px'}}>
             Services Offered
           </h3>
         </Grid>

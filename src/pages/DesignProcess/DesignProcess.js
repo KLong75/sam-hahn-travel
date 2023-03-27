@@ -2,21 +2,22 @@
 import Grid from '@mui/material/Unstable_Grid2';
 
 // import styles
+// import styles from './DesignProcess.module.css';
 
 // import components
-import Partners from "../components/Partners";
-import { DisplayBox } from '../utils/DisplayBox';
+import Partners from "../../components/Partners";
+import { DisplayBox } from '../../utils/DisplayBox';
 
 // import images/logos
-import imageOne from '../assets/images/imageOne.jpeg';
-import unsplash from '../assets/images/unsplash.jpg';
+import imageOne from '../../assets/images/imageOne.jpeg';
+import unsplash from '../../assets/images/unsplash.jpg';
 
 const DesignProcess = () => {
   return (
     <Grid container justifyContent='center' textAlign='center' >
 
       <Grid xs={12}>
-        <h1 className='nothing-you-could-do' style={{ fontSize: '42px'}}>How It Works</h1>
+        <h1 className='nothing-you-could-do' style={{ fontSize: '42px'}}>The Value of a Travel Designer</h1>
       </Grid>
 
       <Grid  xs={12} md={6}  style={{ }} >

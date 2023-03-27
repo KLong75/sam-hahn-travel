@@ -153,7 +153,7 @@ const Partners = () => {
    
       <Grid container spacing={2} textAlign='center'>
         <Grid xs={12}>
-          <h2>My Partnerships Bring You Perks and Privileges</h2>
+          <h2>My Partnerships Bring You VIP Perks </h2>
         </Grid>
 
         {PartnerInfo.map((partner) => (

@@ -12,10 +12,10 @@ import Footer from './components/Footer';
 // import page components
 import Home from './pages/Home/Home';
 // import BookHotel from './pages/BookHotel/BookHotel';
-import Contact from './pages/Contact';
-import DesignProcess from './pages/DesignProcess';
-import About from './pages/About';
-import SelfBooking from './pages/SelfBooking';
+import Contact from './pages/Contact/Contact';
+import DesignProcess from './pages/DesignProcess/DesignProcess';
+import About from './pages/About/About';
+import SelfBooking from './pages/SelfBooking/SelfBooking';
 
 const theme = createTheme({
   typography: {
@@ -65,7 +65,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/how-it-works" element={<DesignProcess />} />
+              <Route path="/design-process" element={<DesignProcess />} />
               <Route path="/self-booking" element={<SelfBooking />} />
               {/* <Route path="/book-hotel" element={<BookHotel />} /> */}
             </Routes>

@@ -62,7 +62,7 @@ const Home = () => {
       </Grid>
 
       <Grid xs={12} >
-        <img src={pinkBlueLandscape} alt='cover pic' style={{width: '98%', height: 'auto', marginTop: '-18px'}} />
+        <img src={pinkBlueLandscape} alt='cover pic' style={{width: '100%', height: 'auto', marginTop: '0px'}} />
       </Grid>
 
     </Grid>

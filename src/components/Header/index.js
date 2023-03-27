@@ -76,7 +76,7 @@ const Header = () => {
                 <Link to="/contact">Contact</Link>
               </li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
-                <Link to="/how-it-works">How It Works</Link>
+                <Link to="/design-process">Travel Design</Link>
               </li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
                 <Link to="/self-booking">Self Booking Resources</Link>
@@ -160,14 +160,14 @@ const Header = () => {
           </MenuItem>
           <MenuItem 
             component={Link} 
-            to="/how-it-works" 
+            to="/design-process" 
             onClick={handleMenuClose} 
             style=
               {{ 
                 padding: '18px', 
                 fontSize: '25px' 
               }}
-            >How It Works
+            >Travel Design
           </MenuItem>
           <MenuItem 
             component={Link} 
