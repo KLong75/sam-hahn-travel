@@ -1,5 +1,3 @@
-import React from 'react';
-
 // import from Material UI
 import Grid from '@mui/material/Unstable_Grid2';
 
@@ -7,33 +5,34 @@ import Grid from '@mui/material/Unstable_Grid2';
 
 // import components
 import Partners from "../components/Partners";
+import { DisplayBox } from '../utils/DisplayBox';
 
-// import images
-// import textLogo from '../assets/images/text_name_logo.png';
+// import images/logos
+import imageOne from '../assets/images/imageOne.jpeg';
+import unsplash from '../assets/images/unsplash.jpg';
 
 const DesignProcess = () => {
   return (
     <Grid container justifyContent='center' textAlign='center' >
-    
-      {/* <Grid xs={12}>
-        <img 
-          src={textLogo} 
-          alt="text logo" 
-          className="text-logo" 
-          style={{
-            width: '526px', 
-            height: 'auto', 
-            maxWidth: '95%',
-            marginBottom: '30px'
-          }} 
-        />
-      </Grid> */}
 
       <Grid xs={12}>
         <h1 className='nothing-you-could-do' style={{ fontSize: '42px'}}>How It Works</h1>
       </Grid>
-      <Grid xs={12}>
-     
+
+      <Grid  xs={12} md={6}  style={{ }} >
+        <DisplayBox elevation={6} >
+          <h2>The Process</h2>
+          <p style={{textAlign: 'left', fontSize: '22px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <img src={imageOne} alt='imageOne' style={{width: '100%'}} />
+        </DisplayBox>
+      </Grid>
+
+      <Grid  xs={12} md={6} style={{ }} >
+        <DisplayBox elevation={6} >
+          <h2>FAQ</h2>
+          <p style={{textAlign: 'left', fontSize: '22px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <img src={unsplash} alt='imageOne' style={{width: '100%'}} />
+        </DisplayBox>
       </Grid>
 
       <Partners />

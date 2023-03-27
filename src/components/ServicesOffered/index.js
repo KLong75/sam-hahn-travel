@@ -6,22 +6,12 @@ import { styled } from '@mui/material/styles';
 import { Paper } from '@mui/material';
 
 // import images
-import globe from '../../assets/images/globe.png';
-import keychain from '../../assets/images/keychain.png';
-import luggage from '../../assets/images/luggage.png';
+import globe from '../../assets/sam_logos/globe.png';
+import keychain from '../../assets/sam_logos/keychain.png';
+import luggage from '../../assets/sam_logos/luggage.png';
 
 // import styles
 import styles from './ServicesOffered.module.css';
-
-// const ServiceCard = styled(Paper)(({ theme }) => ({
-//   ...theme.typography.body2,
-//   padding: theme.spacing(2),
-//   margin: theme.spacing(1),
-//   textAlign: 'center',
-//   color: theme.palette.text.secondary,
-//   backgroundColor: '#fbdecc',
-//   // width: '30%',
-// }));
 
 const ServiceCard = styled(Paper)(({ theme }) => ({
   // ...theme.typography.body2,
@@ -39,13 +29,11 @@ const Services = () => {
   return (
     <section>
       <Grid container spacing={2} textAlign='center'>
+      
         <Grid xs={12}>
-          {/* <ServiceCard elevation={6}> */}
           <h3 className='' style={{fontWeight: 'bolder', color: 'black', fontSize: '32px', textDecoration: 'underline', marginBottom: '-20px'}}>
             Services Offered
           </h3>
-          {/* </ServiceCard> */}
-
         </Grid>
 
         <Grid xs={12} md={4} >

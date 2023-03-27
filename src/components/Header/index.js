@@ -2,19 +2,35 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
+// import components
+import GlobeKeyLogo from '../GlobeKeyLogo';
+// import { DisplayBox } from '../../utils/DisplayBox'
+
 // import from Material UI
 import { IconButton, Menu, MenuItem } from '@mui/material';
-// import { styled } from '@mui/material/styles';
 import MenuIcon from '@mui/icons-material/Menu';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Grid from '@mui/material/Unstable_Grid2';
+// import { styled } from '@mui/material/styles';
+// import { Paper } from '@mui/material';
 
-// import images
-import GlobeKeyLogo from '../GlobeKeyLogo';
-import textLogo from '../../assets/images/text_name_logo.png';
-import frameGlobeLogoPeach from '../../assets/images/frame_globe_logo_peach.png';
+// import images/logos
+import textLogo from '../../assets/sam_logos/text_name_logo.png';
+import frameGlobeLogoPeach from '../../assets/sam_logos/frame_globe_logo_peach.png';
+// import coverPic from '../../assets/images/sam_cover_pic.jpg';
 
 // import styles from './Header.module.css';
+
+// const HeaderDisplayBox = styled(Paper)(({ theme }) => ({
+//   // ...theme.typography.body2,
+//   padding: theme.spacing(0),
+//   margin: theme.spacing(0),
+//   // textAlign: 'left',
+//   // color: theme.palette.text.secondary,
+//   backgroundColor: '#fbdecc',
+//   opacity: '0.8',
+//   // height: '80%'
+// }));
 
 const Header = () => {
   const [menuAnchor, setMenuAnchor] = useState(null);
@@ -22,7 +38,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 800);
+      setIsMobile(window.innerWidth <= 920);
     };
     handleResize();
     window.addEventListener("resize", handleResize);
@@ -40,7 +56,9 @@ const Header = () => {
   return (
     <header style={{ padding: '16px', backgroundColor: '#fbdecc' }}>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+     
         <GlobeKeyLogo />
+       
         {isMobile ? (
           <IconButton onClick={handleMenuOpen} size="large">
             <MenuIcon />

@@ -10,7 +10,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 // import page components
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 // import BookHotel from './pages/BookHotel/BookHotel';
 import Contact from './pages/Contact';
 import DesignProcess from './pages/DesignProcess';

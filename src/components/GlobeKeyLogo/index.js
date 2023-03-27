@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-import globeKeyLogo from '../../assets/images/sht_globe_key_logo.png';
+import globeKeyLogo from '../../assets/sam_logos/sht_globe_key_logo.png';
 
 import styles from './GlobeKeyLogo.module.css';
 

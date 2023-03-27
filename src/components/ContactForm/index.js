@@ -22,7 +22,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 // import { Paper } from '@mui/material';
 
 // import images
-import frameGlobeLogoPeach from '../../assets/images/frame_globe_logo_peach.png';
+import frameGlobeLogoPeach from '../../assets/sam_logos/frame_globe_logo_peach.png';
 
 // import from utils
 import { validateEmail } from '../../utils/helpers';

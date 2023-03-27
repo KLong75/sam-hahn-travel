@@ -1,10 +1,10 @@
-import React from 'react';
-
+// import from Material UI
 import Grid from '@mui/material/Unstable_Grid2';
 import Button from '@mui/material/Button';
 
+// import images/logos
 import Virtuoso from '../../assets/partner_logos/Virtuoso.png';
-import luggageLogo from '../../assets/images/luggage.png';
+import luggageLogo from '../../assets/sam_logos/luggage.png';
 
 const BookHotel = () => {
   return (

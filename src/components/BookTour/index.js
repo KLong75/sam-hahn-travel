@@ -4,7 +4,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Button from '@mui/material/Button';
 
 import Context from '../../assets/partner_logos/ContextTravel.png';
-import globeLogo from '../../assets/images/globe.png';
+import globeLogo from '../../assets/sam_logos/globe.png';
 
 const BookTour = () => {
   return (

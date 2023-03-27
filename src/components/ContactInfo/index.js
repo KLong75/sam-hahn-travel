@@ -4,7 +4,7 @@ import React from 'react';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
-import frame from '../../assets/images/frame.png';
+import frame from '../../assets/sam_logos/frame.png';
 
 const ContactInfo = () => {
   return (
