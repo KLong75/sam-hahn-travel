@@ -9,6 +9,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 import ContactForm from '../../components/ContactForm';
 import MailingListSignUp from '../../components/MailingListSignUp';
 import ScheduleAppointment from '../../components/ScheduleAppointment';
+import TextLogo from '../../components/TextLogo';
 
 // import images
 // import boatMountains from '../../assets/images/boat-mountains.jpg';
@@ -32,8 +33,10 @@ const Contact = () => {
     <Grid container spacing={6} justifyContent='center' textAlign='center' >
      
       <Grid xs={12} style={{ marginTop: '-40px'}}>
-        <h1 className='nothing-you-could-do' style={{ fontSize: '42px'}}>Get In Touch</h1>
+        <h1 className='nothing-you-could-do' style={{ fontSize: '60px', marginBottom: '0px'}}>Get In Touch</h1>
       </Grid>
+
+      <TextLogo />
 
       <Grid  xs={12} md={6} style={{ marginTop: '-80px'}} height=''>
         <DisplayBox elevation={6} >

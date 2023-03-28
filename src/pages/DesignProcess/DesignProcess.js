@@ -6,6 +6,7 @@ import styles from './DesignProcess.module.css';
 
 // import components
 import Partners from "../../components/Partners";
+import TextLogo from '../../components/TextLogo';
 import { DisplayBox } from '../../utils/DisplayBox';
 
 // import images/logos
@@ -18,9 +19,10 @@ const DesignProcess = () => {
     <Grid container justifyContent='center' textAlign='center' >
 
       <Grid xs={12}>
-      <h1 className={`${styles.processHeadline} nothing-you-could-do`} style={{ fontSize: '42px'}}>The Value of a Travel Designer</h1>
-
+        <h1 className={`${styles.processHeadline} nothing-you-could-do`} style={{ fontSize: '60px'}}>The Value of a Travel Designer</h1>
       </Grid>
+
+      <TextLogo />
 
       <Grid  xs={12} md={6}  style={{ }} >
         <DisplayBox elevation={6} >
@@ -56,7 +58,7 @@ const DesignProcess = () => {
         </DisplayBox>
       </Grid>
 
-      <Partners />
+      <Partners/>
 
     </Grid>
   );

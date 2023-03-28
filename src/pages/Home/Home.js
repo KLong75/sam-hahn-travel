@@ -9,7 +9,7 @@ import { Paper } from '@mui/material';
 import Services from '../../components/ServicesOffered';
 
 // import images
-// import textLogo from '../assets/images/text_name_logo.png';
+import textLogo from '../../assets/sam_logos/text_name_logo.png';
 import pinkBlueLandscape from '../../assets/images/unsplash.jpg';
 import planeView from '../../assets/images/planeView.jpg';
 import Italy from '../../assets/images/Italy.jpg';
@@ -44,6 +44,9 @@ const Home = () => {
         // height: '50vh',
       }}
     >
+      <Grid xs={12} >
+        <img src={textLogo} alt='text logo' style={{width: '80%', height: 'auto', marginTop: '10px'}} />
+      </Grid>
 
       <Grid xs={12} >
         <h1 

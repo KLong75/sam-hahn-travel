@@ -6,6 +6,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 // import components
 import BookHotel from '../../components/BookHotel';
 import BookTour from '../../components/BookTour';
+import TextLogo from '../../components/TextLogo';
 
 // import images
 
@@ -20,8 +21,10 @@ const SelfBooking = () => {
     <Grid container justifyContent='center' textAlign='center' spacing={4} >
   
       <Grid xs={12}>
-        <h1 className='nothing-you-could-do' style={{fontSize: '42px', marginTop: '0px', marginBottom: '0px'}}>Self Booking Resources</h1>
+        <h1 className='nothing-you-could-do' style={{fontSize: '60px', marginTop: '0px', marginBottom: '0px'}}>Self Booking Resources</h1>
       </Grid>
+
+      <TextLogo />
 
       <Grid xs={12} md={6}>
         <DisplayBox elevation={6} style={{height: 'auto'}}>
