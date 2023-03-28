@@ -1,5 +1,3 @@
-import React, { useRef, useState } from "react";
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -10,6 +8,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 import eifelTower from "../../assets/images/eifel_tower_1_1.jpg";
 import germany from "../../assets/images/germany_1_1.jpg";
 import waterfall from "../../assets/images/waterfall_1_1.jpg";
+import frameGlobeLogo from "../../assets/sam_logos/sht_globe_key_logo.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -38,7 +37,9 @@ export default function App() {
         modules={[EffectCoverflow, Pagination]}
         className="mySwiper"
       >
-  
+        <SwiperSlide>
+          <img src={frameGlobeLogo} alt='Sam Hahn Travel Logo' />
+        </SwiperSlide>
         <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt='sunset over a lake' />
           <span style={{marginBottom: '', fontWeight: 'bolder', color: 'black'}}></span>
@@ -50,6 +51,9 @@ export default function App() {
           <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt='fall foliage'/>
         </SwiperSlide>
         <SwiperSlide>
+          <img src={frameGlobeLogo} alt='Sam Hahn Travel Logo' />
+        </SwiperSlide>
+        <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt='beach sunset'/>
         </SwiperSlide>
         <SwiperSlide>
@@ -59,6 +63,9 @@ export default function App() {
           <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt='flowers' />
         </SwiperSlide>
         <SwiperSlide>
+          <img src={frameGlobeLogo} alt='Sam Hahn Travel Logo' />
+        </SwiperSlide>
+        <SwiperSlide>
           <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt='the sun behind a tree'/>
         </SwiperSlide>
         <SwiperSlide>
@@ -66,6 +73,9 @@ export default function App() {
         </SwiperSlide>
         <SwiperSlide>
           <img src={waterfall} alt='buildings in Germany' />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={frameGlobeLogo} alt='buildings in Germany' />
         </SwiperSlide>
       </Swiper>
     </>
