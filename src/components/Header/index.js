@@ -125,7 +125,7 @@ const Header = () => {
           <img 
             src={frameGlobeLogoPeach} 
             alt="Globe Key Logo" 
-            style={{ width: '200px', height: '200px', marginTop: '0px', marginLeft: '35px' }} 
+            style={{ width: '200px', height: '200px', marginTop: '0', marginLeft: '30px' }} 
           />
           <MenuItem 
             component={Link} 

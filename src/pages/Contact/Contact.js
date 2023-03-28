@@ -32,7 +32,7 @@ const Contact = () => {
     
     <Grid container spacing={6} justifyContent='center' textAlign='center' >
      
-      <Grid xs={12} style={{ marginTop: '-40px'}}>
+      <Grid xs={12} style={{ marginTop: ''}}>
         <h1 className='nothing-you-could-do' style={{ fontSize: '60px', marginBottom: '0px'}}>Get In Touch</h1>
       </Grid>
 

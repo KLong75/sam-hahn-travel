@@ -1,19 +1,5 @@
-import React from 'react';
-
-
-
 // import from Material UI
 import Grid from '@mui/material/Unstable_Grid2';
-// import { styled } from '@mui/material/styles';
-// import { Paper } from '@mui/material';
-// import Box from '@mui/material/Box';
-
-// import Card from '@mui/material/Card';
-// import CardActions from '@mui/material/CardActions';
-// import CardContent from '@mui/material/CardContent';
-// import CardMedia from '@mui/material/CardMedia';
-// import Button from '@mui/material/Button';
-// import Typography from '@mui/material/Typography';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -27,8 +13,6 @@ import "./PartnerCube.css";
 
 // import required modules
 import { EffectCube, Pagination } from "swiper";
-
-
 
 // import styles
 import styles from './Partners.module.css';
@@ -49,6 +33,7 @@ import Rosewood from '../../assets/partner_logos/Rosewood.png';
 import Virtuoso from '../../assets/partner_logos/Virtuoso.png';
 import Context from '../../assets/partner_logos/ContextTravel.png';
 import globeKeyLogo from '../../assets/sam_logos/sht_globe_key_logo.png';
+
 
 const PartnerInfo = [
   {
@@ -158,7 +143,7 @@ const Partners = () => {
    
       <Grid container spacing={2} textAlign='' alignItems='' justifyContent='' style={{marginBottom: '0px'}}>
         <Grid xs={12}>
-          <h2 className='nothing-you-could-do' style={{ fontSize: '24px'}}>My Partnerships Bring You VIP Perks </h2>
+          <h2 className='nothing-you-could-do' style={{ fontSize: '32px'}}>My Partnerships Bring You VIP Perks </h2>
         </Grid>
 
         <Grid xs={12} md={4} style={{marginBottom: '30px'}}>
@@ -183,11 +168,12 @@ const Partners = () => {
             modules={[EffectCube, Pagination]}
             className="mySwiper"
           >
+         
             <SwiperSlide>
-            <img src={`${PartnerInfo[0].image}`} alt={`${PartnerInfo[0].alt}`} className={`${PartnerInfo[0].className}`} />
+              <img src={`${PartnerInfo[0].image}`} alt={`${PartnerInfo[0].alt}`} className={`${PartnerInfo[0].className}`} />
               <p>{`${PartnerInfo[0].description}`}</p>
             </SwiperSlide>
-
+           
             <SwiperSlide >
             <img src={`${PartnerInfo[1].image}`} alt={`${PartnerInfo[1].alt}`} className={`${PartnerInfo[1].className}`} />
               <p>{`${PartnerInfo[1].description}`}</p>

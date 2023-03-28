@@ -20,7 +20,7 @@ const About = () => {
     <Grid container spacing={1} alignItems='center'  textAlign='center' >
     
       <Grid xs={12}>
-        <h1 className={`nothing-you-could-do  ${styles.aboutHeadline}`} style={{fontSize: '60px'}}>Hi, I'm Sam.</h1>
+        <h1 className={`nothing-you-could-do  ${styles.aboutHeadline}`} style={{fontSize: '80px'}}>Hi, I'm Sam.</h1>
       </Grid>
 
     </Grid>

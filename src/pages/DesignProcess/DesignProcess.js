@@ -19,7 +19,7 @@ const DesignProcess = () => {
     <Grid container justifyContent='center' textAlign='center' >
 
       <Grid xs={12}>
-        <h1 className={`${styles.processHeadline} nothing-you-could-do`} style={{ fontSize: '60px'}}>The Value of a Travel Designer</h1>
+        <h1 className={`${styles.processHeadline} nothing-you-could-do`} style={{ fontSize: '60px', marginBottom: ''}}>The Value of a Travel Designer</h1>
       </Grid>
 
       <TextLogo />
