@@ -8,6 +8,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 // import components
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Swiper from './components/Swiper';
 
 // import page components
 import Home from './pages/Home/Home';
@@ -69,6 +70,7 @@ function App() {
               <Route path="/self-booking" element={<SelfBooking />} />
               {/* <Route path="/book-hotel" element={<BookHotel />} /> */}
             </Routes>
+            <Swiper />
           <Footer />
         {/* </div> */}
       </Router>

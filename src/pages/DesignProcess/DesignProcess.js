@@ -10,7 +10,8 @@ import { DisplayBox } from '../../utils/DisplayBox';
 
 // import images/logos
 import imageOne from '../../assets/images/imageOne.jpeg';
-import unsplash from '../../assets/images/unsplash.jpg';
+import coverPic from '../../assets/images/sam_cover_pic.jpg';
+
 
 const DesignProcess = () => {
   return (
@@ -51,7 +52,7 @@ const DesignProcess = () => {
                 <span style={{fontWeight: 'bold'}}>A.</span> Lorem ipsum ut labore et dolore magna Lorem ipsum dolor sit amet, consectetur adipiscing elit, incididunt ut labore et dolore magna aliqua.
               </li>
             </ul>
-          <img src={unsplash} alt='imageOne' style={{width: '100%'}} />
+          <img src={coverPic} alt='imageOne' style={{width: '100%'}} />
         </DisplayBox>
       </Grid>
 

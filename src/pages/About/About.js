@@ -2,6 +2,8 @@ import React from 'react';
 
 import Grid from '@mui/material/Unstable_Grid2';
 
+
+
 // import Gallery from '../components/Gallery';
 
 import samPic from  '../../assets/images/sam_pic_crop.jpg';
@@ -59,9 +61,7 @@ const About = () => {
           <img src={samPic} alt='Sam Hahn' style={{width: '70%', height: 'auto', marginTop: '20px', marginBottom: '15px'}}/>
         </DisplayBox>
       </Grid>
-
       
-
     </Grid>
     </>
   );

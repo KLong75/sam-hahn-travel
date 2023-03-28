@@ -11,7 +11,9 @@ import MailingListSignUp from '../../components/MailingListSignUp';
 import ScheduleAppointment from '../../components/ScheduleAppointment';
 
 // import images
-import boatMountains from '../../assets/images/boat-mountains.jpg';
+// import boatMountains from '../../assets/images/boat-mountains.jpg';
+// import boatsOnWater from '../../assets/images/blue-water.jpg'
+// import pinkCar from '../../assets/images/pinkCarCuba.jpg';
 // import bikeDream from '../assets/images/bike-dream.jpg';
 // import bridgeHiker from '../assets/images/bridge-hiker.jpg';
 // import textLogo from '../assets/images/text_name_logo.png';
@@ -36,16 +38,18 @@ const Contact = () => {
       <Grid  xs={12} md={6} style={{ marginTop: '-80px'}} height=''>
         <DisplayBox elevation={6} >
           <ScheduleAppointment  />
-          <img src={boatMountains} alt='' style={{width: '90%', height: 'auto', marginTop: '', marginBottom: ''}}/>
+          {/* <img src={boatMountains} alt='' style={{width: '90%', height: 'auto', marginTop: '', marginBottom: ''}}/> */}
         </DisplayBox>
         <DisplayBox elevation={6} >
           <MailingListSignUp />
+          {/* <img src={boatsOnWater} alt='' style={{width: '90%', height: 'auto', marginTop: '', marginBottom: ''}}/> */}
         </DisplayBox>
       </Grid>
      
       <Grid xs={12} md={6} style={{ marginTop: '-80px'}}>
         <DisplayBox elevation={6}>
           <ContactForm />
+          {/* <img src={pinkCar} alt='' style={{width: '90%', height: 'auto', marginTop: '', marginBottom: ''}}/> */}
         </DisplayBox>
       </Grid>
       
