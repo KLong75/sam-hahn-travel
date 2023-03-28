@@ -15,7 +15,7 @@ import ScheduleAppointment from '../../components/ScheduleAppointment';
 // import boatsOnWater from '../../assets/images/blue-water.jpg'
 // import pinkCar from '../../assets/images/pinkCarCuba.jpg';
 // import bikeDream from '../../assets/images/bike-dream.jpg';
-// import bridgeHiker from '../../assets/images/bridge-hiker.jpg';
+// import bridgeHiker from '../../assets/images/bridge-hiker-reduce.jpg';
 // import textLogo from '../assets/images/text_name_logo.png';
 // import landscapePic from '../assets/images/unsplash3.jpg'
 
@@ -37,9 +37,8 @@ const Contact = () => {
 
       <Grid  xs={12} md={6} style={{ marginTop: '-80px'}} height=''>
         <DisplayBox elevation={6} >
-          {/* <img src={bridgeHiker} alt='' style={{width: '80%', height: 'auto', marginTop: '20px', marginBottom: ''}}/> */}
           <ScheduleAppointment  />
-          {/* <img src={boatMountains} alt='' style={{width: '90%', height: 'auto', marginTop: '', marginBottom: ''}}/> */}
+          {/* <img src={bridgeHiker} alt='' style={{width: '98%', height: 'auto', marginTop: '0px', marginBottom: ''}}/> */}
         </DisplayBox>
         <DisplayBox elevation={6} >
           <MailingListSignUp />

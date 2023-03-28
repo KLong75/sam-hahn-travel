@@ -54,23 +54,26 @@ const Home = () => {
             zIndex: '2',
             position: 'relative',
             marginTop: '20px',
-            marginBottom: '-150px',
+            marginBottom: '0px',
           
           }}
           >Unlock Inspired Travel
         </h1>
       </Grid>
-
+      <DisplayCard elevation={6} alignItems='center'>
       <Grid xs={12} >
-        <img src={pinkBlueLandscape} alt='landscape phot with water and mountains' style={{width: '100%', height: 'auto', marginTop: '0px'}} />
+
+        <img src={pinkBlueLandscape} alt='landscape phot with water and mountains' style={{width: '100%', height: 'auto', marginTop: '10px'}} />
+
       </Grid>
+      </DisplayCard>
 
     </Grid>
 
     <Grid container spacing={0} justifyContent='center' textAlign='center' style={{ backGroundColor: '#7a6f6f'}}>
 
       <Grid xs={12}>
-        <h2 className={`nothing-you-could-do home-sub-headline ${styles.homeSubHeadline}`} style={{fontSize: '42px', fontWeight: 'bolder', marginBottom: '0px'}}>The Value of a Travel Designer</h2>
+        <h2 className={`nothing-you-could-do home-sub-headline ${styles.homeSubHeadline}`} style={{fontSize: '42px', fontWeight: 'bolder', marginTop: '0px', marginBottom: '0px'}}>The Value of a Travel Designer</h2>
       </Grid>
 
       <Grid xs={12} md={6} >

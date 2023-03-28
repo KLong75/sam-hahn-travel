@@ -10,12 +10,12 @@ import GlobeKeyLogo from '../GlobeKeyLogo';
 import { IconButton, Menu, MenuItem } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import Grid from '@mui/material/Unstable_Grid2';
+// import Grid from '@mui/material/Unstable_Grid2';
 // import { styled } from '@mui/material/styles';
 // import { Paper } from '@mui/material';
 
 // import images/logos
-import textLogo from '../../assets/sam_logos/text_name_logo.png';
+// import textLogo from '../../assets/sam_logos/text_name_logo.png';
 import frameGlobeLogoPeach from '../../assets/sam_logos/frame_globe_logo_peach.png';
 // import coverPic from '../../assets/images/sam_cover_pic.jpg';
 
@@ -125,7 +125,7 @@ const Header = () => {
           <img 
             src={frameGlobeLogoPeach} 
             alt="Globe Key Logo" 
-            style={{ width: '200px', height: '200px', marginTop: '-100px', marginLeft: '35px' }} 
+            style={{ width: '200px', height: '200px', marginTop: '0px', marginLeft: '35px' }} 
           />
           <MenuItem 
             component={Link} 
@@ -134,7 +134,7 @@ const Header = () => {
             style=
               {{ 
                 padding: '18px', 
-                fontSize: '25px' }}
+                fontSize: '24px' }}
             >Home
           </MenuItem>
           <MenuItem 
@@ -143,7 +143,7 @@ const Header = () => {
             onClick={handleMenuClose} 
             style={{ 
               padding: '18px', 
-              fontSize: '25px' 
+              fontSize: '24px' 
             }}
             >About
           </MenuItem>
@@ -154,7 +154,7 @@ const Header = () => {
             style=
               {{ 
                 padding: '18px', 
-                fontSize: '25px' 
+                fontSize: '24px' 
               }}
             >Contact
           </MenuItem>
@@ -165,7 +165,7 @@ const Header = () => {
             style=
               {{ 
                 padding: '18px', 
-                fontSize: '25px' 
+                fontSize: '24px' 
               }}
             >Travel Design
           </MenuItem>
@@ -176,7 +176,7 @@ const Header = () => {
             style=
               {{ 
                 padding: '18px', 
-                fontSize: '25px' 
+                fontSize: '24px' 
               }}
             >Self Booking Resources
           </MenuItem>
@@ -195,7 +195,7 @@ const Header = () => {
 
         </Menu>
       </div>
-      <Grid 
+      {/* <Grid 
         container 
         spacing={1} 
         justifyContent='center' 
@@ -213,7 +213,7 @@ const Header = () => {
             }} 
           />
         </Grid>
-      </Grid>
+      </Grid> */}
     </header>
   );
 }
