@@ -137,7 +137,7 @@ const PartnerInfo = [
 const PartnerCard = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   padding: theme.spacing(2),
-  margin: theme.spacing(1),
+  margin: theme.spacing(2),
   textAlign: 'center',
   color: theme.palette.text.secondary,
   backgroundColor: '#fbdecc',
@@ -153,7 +153,7 @@ const Partners = () => {
    
       <Grid container spacing={2} textAlign='center'>
         <Grid xs={12}>
-          <h2 className='nothing-you-could-do' style={{ fontSize: '36px'}}>My Partnerships Bring You VIP Perks </h2>
+          <h2 className='nothing-you-could-do' style={{ fontSize: '24px'}}>My Partnerships Bring You VIP Perks </h2>
         </Grid>
 
         {PartnerInfo.map((partner) => (

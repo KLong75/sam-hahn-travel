@@ -1,0 +1,27 @@
+/* begin media queries */
+@media screen and (max-width: 600px) {
+  .processHeadline {
+    font-size: 34px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .processParagraph {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .processHeadline {
+    font-size: 28px !important;
+  }
+  .processParagraph {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .processHeadline {
+    font-size: 18px !important;
+  }
+}

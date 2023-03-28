@@ -20,7 +20,7 @@ const SelfBooking = () => {
     <Grid container justifyContent='center' textAlign='center' spacing={4} >
   
       <Grid xs={12}>
-        <h1 className='nothing-you-could-do' style={{fontSize: '42px'}}>Self Booking Resources</h1>
+        <h1 className='nothing-you-could-do' style={{fontSize: '42px', marginTop: '0px', marginBottom: '0px'}}>Self Booking Resources</h1>
       </Grid>
 
       <Grid xs={12} md={6}>
