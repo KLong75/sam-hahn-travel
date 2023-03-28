@@ -12,7 +12,7 @@ import ContactInfo from "../ContactInfo";
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: '#fbdecc'}}>
+    <footer style={{ backgroundColor: '#fbdecc', marginTop: '10px'}}>
       <Grid container spacing={2} justifyContent="center" textAlign='center' style={{marginTop: '10px'}}>
         <Grid xs={12} style={{marginTop: '10px', marginBottom: '-10px'}}>
           <ContactInfo />
