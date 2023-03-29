@@ -13,11 +13,11 @@
   height: 300px;
 }
 
-.swiper-slide img {
-  /* display: block; */
-  /* width: 100%; */
-  /* height: auto; */
-}
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
 
 .swiper-button-prev,  .swiper-button-next {
   color: #000;

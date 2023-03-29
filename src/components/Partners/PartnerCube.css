@@ -15,26 +15,18 @@
   background-size: cover;
 }
 
-.swiper-slide img {
-  /* display: block; */
-  /* width: 100%; */
-}
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+} */
 
 .swiper-cube-shadow {
   display: none;
-  /* opacity: .2 !important; */
 }
 
 
 
 /* begin media queries */
-@media screen and (max-width: 500px) {
-  .mySwiper {
-    /* width: 280px !important; */
-    /* height: 280px !important; */
-  }
-}
-
 @media screen and (max-width: 400px) {
   .mySwiper {
     width: 280px !important;
