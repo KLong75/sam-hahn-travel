@@ -10,7 +10,7 @@ import GlobeKeyLogo from '../GlobeKeyLogo';
 import { IconButton, Menu, MenuItem } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import InstagramIcon from '@mui/icons-material/Instagram';
-// import Grid from '@mui/material/Unstable_Grid2';
+import Grid from '@mui/material/Unstable_Grid2';
 // import { styled } from '@mui/material/styles';
 // import { Paper } from '@mui/material';
 
@@ -122,11 +122,15 @@ const Header = () => {
             },
           }}
         >
+          <Grid container spacing={0} justifyContent='' alignItems='center' textAlign='center'>
+          <Grid item xs={12}>
           <img 
             src={frameGlobeLogoPeach} 
             alt="Globe Key Logo" 
-            style={{ width: '200px', height: '200px', marginTop: '0', marginLeft: '30px' }} 
+            style={{ width: '40%', height: 'auto', marginTop: '0px', marginBottom: '-10px' }} 
           />
+          </Grid>
+          <Grid xs={12}>
           <MenuItem 
             component={Link} 
             to="/" 
@@ -134,30 +138,27 @@ const Header = () => {
             style=
               {{ 
                 padding: '18px', 
-                fontSize: '24px' }}
+                fontSize: '22px',
+                marginLeft: '40px'
+                // justifyContent: 'center'
+              }}
             >Home
           </MenuItem>
+          </Grid>
+          <Grid xs={12}>
           <MenuItem 
             component={Link} 
             to="/about" 
             onClick={handleMenuClose} 
             style={{ 
               padding: '18px', 
-              fontSize: '24px' 
+              fontSize: '22px',
+              marginLeft: '40px' 
             }}
             >About
           </MenuItem>
-          <MenuItem 
-            component={Link} 
-            to="/contact" 
-            onClick={handleMenuClose} 
-            style=
-              {{ 
-                padding: '18px', 
-                fontSize: '24px' 
-              }}
-            >Contact
-          </MenuItem>
+          </Grid>
+          <Grid xs={12}>
           <MenuItem 
             component={Link} 
             to="/design-process" 
@@ -165,10 +166,27 @@ const Header = () => {
             style=
               {{ 
                 padding: '18px', 
-                fontSize: '24px' 
+                fontSize: '22px',
+                marginLeft: '40px' 
+              }}
+            >Contact
+          </MenuItem>
+          </Grid>
+          <Grid xs={12}>
+          <MenuItem 
+            component={Link} 
+            to="/design-process" 
+            onClick={handleMenuClose} 
+            style=
+              {{ 
+                padding: '18px', 
+                fontSize: '22px',
+                marginLeft: '40px' 
               }}
             >Travel Design
           </MenuItem>
+          </Grid>
+          <Grid xs={12}>
           <MenuItem 
             component={Link} 
             to="/self-booking" 
@@ -176,44 +194,29 @@ const Header = () => {
             style=
               {{ 
                 padding: '18px', 
-                fontSize: '24px' 
+                fontSize: '22px',
+                marginLeft: '40px' 
               }}
             >Self Booking Resources
           </MenuItem>
-          <MenuItem style={{padding: '18px'}}>
+          </Grid>
+          <Grid xs={12}>
+          <MenuItem style={{padding: '18px',
+              marginLeft: '40px'}}>
             <a
               href='https://www.instagram.com/samhahntravelco/'
               target='_blank'
               rel='noreferrer'
               className=''
               aria-label='Link to Sam Hahn Travel Co Instagram'
-              
             >
-              <InstagramIcon style={{ fontSize: '30px', color: '#fbdecc'}} />
+              <InstagramIcon style={{ fontSize: '28px', color: '#fbdecc'}} />
             </a>
           </MenuItem>
-
+          </Grid>
+          </Grid>
         </Menu>
       </div>
-      {/* <Grid 
-        container 
-        spacing={1} 
-        justifyContent='center' 
-        textAlign='center' >
-        <Grid xs={12}>
-          <img 
-            src={textLogo} 
-            alt='text logo' 
-            className='text-logo'
-            style={{
-              width: '526px', 
-              height: 'auto', 
-              maxWidth: '100%',
-              maxHeight: '100%',
-            }} 
-          />
-        </Grid>
-      </Grid> */}
     </header>
   );
 }
