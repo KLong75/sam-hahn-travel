@@ -20,7 +20,8 @@
   width: 100%;
 } */
 
-.swiper-cube-shadow {
+
+.mySwiper .swiper-cube-shadow {
   display: none;
 }
 

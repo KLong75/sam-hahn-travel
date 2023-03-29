@@ -8,6 +8,7 @@ import Grid from '@mui/material/Unstable_Grid2';
 
 import samPic from  '../../assets/images/sam_pic_crop.jpg';
 // import textLogo from '../assets/images/text_name_logo.png';
+// import frame from '../../assets/sam_logos/frame.png';
 
 import { DisplayBox } from '../../utils/DisplayBox';
 
@@ -22,6 +23,10 @@ const About = () => {
       <Grid xs={12}>
         <h1 className={`nothing-you-could-do  ${styles.aboutHeadline}`} style={{fontSize: '80px'}}>Hi, I'm Sam.</h1>
       </Grid>
+
+      {/* <Grid xs={12}>
+        <img src={frame} alt='Sam Hahn' style={{width: '100%', height: 'auto', marginTop: '', marginBottom: ''}}/>
+      </Grid> */}
 
     </Grid>
 

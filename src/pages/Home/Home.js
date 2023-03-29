@@ -7,13 +7,15 @@ import { Paper } from '@mui/material';
 
 // import components
 import Services from '../../components/ServicesOffered';
+import GalleryCube from '../../components/GalleryCube';
 
 // import images
 import textLogo from '../../assets/sam_logos/text_name_logo.png';
 import pinkBlueLandscape from '../../assets/images/unsplash.jpg';
 import planeView from '../../assets/images/planeView.jpg';
 import Italy from '../../assets/images/Italy.jpg';
-// import coverPic from '../../assets/images/sam_cover_pic.jpg';
+import frame from '../../assets/sam_logos/frame.png';
+
 
 // import styles
 import styles from './Home.module.css';
@@ -63,7 +65,16 @@ const Home = () => {
           >Unlock Inspired Travel
         </h1>
       </Grid>
-      <DisplayCard elevation={6} alignItems='center'>
+
+      <Grid xs={12} style={{}}>
+        <img src={frame} alt='Sam Hahn' style={{width: '100%', height: 'auto', marginTop: '', marginBottom: ''}}/>
+      </Grid>
+
+      <Grid xs={12} style={{marginTop: '-60em'}} className={` ${styles.galleryCubeGrid}`} >
+        <GalleryCube />
+      </Grid>
+
+      <DisplayCard elevation={6} alignItems='center' style={{marginTop: '-40px'}}>
       <Grid xs={12} >
 
         <img src={pinkBlueLandscape} alt='landscape phot with water and mountains' style={{width: '100%', height: 'auto', marginTop: '10px'}} />
@@ -73,10 +84,11 @@ const Home = () => {
 
     </Grid>
 
-    <Grid container spacing={0} justifyContent='center' textAlign='center' style={{ backGroundColor: '#7a6f6f'}}>
+    <Grid container spacing={0} justifyContent='center' textAlign='center' >
 
       <Grid xs={12}>
-        <h2 className={`nothing-you-could-do home-sub-headline ${styles.homeSubHeadline}`} style={{fontSize: '42px', fontWeight: 'bolder', marginTop: '0px', marginBottom: '0px'}}>The Value of a Travel Designer</h2>
+        <h2 className={`nothing-you-could-do home-sub-headline ${styles.homeSubHeadline}`} style={{fontSize: '60px', fontWeight: 'bolder', marginTop: '0px', marginBottom: '20px'}}>Discover The Value of a Travel Designer</h2>
+    
       </Grid>
 
       <Grid xs={12} md={6} >

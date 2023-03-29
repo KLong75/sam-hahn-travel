@@ -58,9 +58,6 @@ html {
     font-size: 70px !important;
   }
 
-  .home-sub-headline {
-    /* font-size: 40px !important; */
-  }
 
   .footer-logo {
     display: none;
@@ -73,9 +70,7 @@ html {
     font-size: 65px !important;
   }
 
-  .home-sub-headline {
-    /* font-size: 36px !important; */
-  }
+ 
 }
 
 @media screen and (max-width: 700px) {
@@ -83,9 +78,7 @@ html {
     font-size: 55px !important;
   }
 
-  .home-sub-headline {
-    font-size: 40px !important;
-  }
+ 
 }
 
 @media screen and (max-width: 600px) {
@@ -93,9 +86,7 @@ html {
     font-size: 48px !important;
   }
 
-  .home-sub-headline {
-    font-size: 34px !important;
-  }
+  
 }
 
 @media screen and (max-width: 530px) {
@@ -103,18 +94,12 @@ html {
     font-size: 46px !important;
   }
 
-  .home-sub-headline {
-    font-size: 32px !important;
-  }
+ 
 }
 
 @media screen and (max-width: 500px) {
   .home-headline {
     font-size: 42px !important;
-  }
-
-  .home-sub-headline {
-    font-size: 30px !important;
   }
 }
 
@@ -125,9 +110,7 @@ html {
     font-size: 36px !important;
   }
 
-  .home-sub-headline {
-    font-size: 26px !important;
-  }
+ 
 }
 
 
@@ -138,30 +121,17 @@ html {
     margin-bottom: '-100px' !important;
   }
 
-  .home-sub-headline {
-    font-size: 24px !important;
-  }
 }
 
 @media screen and (max-width: 370px) {
   .home-headline {
     font-size: 32px !important;
   }
-
-  .home-sub-headline {
-    font-size: 22px !important;
-  }
-
-
 }
 
 @media screen and (max-width: 340px) {
   .home-headline {
     font-size: 28px !important;
-  }
-
-  .home-sub-headline {
-    font-size: 20px !important;
   }
 }
 
@@ -170,7 +140,4 @@ html {
     font-size: 24px !important;
   }
 
-  .home-sub-headline {
-    font-size: 18px !important;
-  }
 }

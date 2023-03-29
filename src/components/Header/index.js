@@ -162,7 +162,7 @@ const Header = () => {
           <Grid xs={12}>
           <MenuItem 
             component={Link} 
-            to="/design-process" 
+            to="/contact" 
             onClick={handleMenuClose} 
             style=
               {{ 
