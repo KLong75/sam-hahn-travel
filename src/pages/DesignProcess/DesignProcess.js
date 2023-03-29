@@ -7,6 +7,7 @@ import styles from './DesignProcess.module.css';
 // import components
 import Partners from "../../components/Partners";
 import TextLogo from '../../components/TextLogo';
+import Services from '../../components/ServicesOffered';
 import { DisplayBox } from '../../utils/DisplayBox';
 
 // import images/logos
@@ -23,6 +24,8 @@ const DesignProcess = () => {
       </Grid>
 
       <TextLogo />
+
+      <Services />
 
       <Grid  xs={12} md={6}  style={{ }} >
         <DisplayBox elevation={6} >
@@ -59,6 +62,7 @@ const DesignProcess = () => {
       </Grid>
 
       <Partners/>
+
 
     </Grid>
   );
