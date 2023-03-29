@@ -3,6 +3,10 @@ import React from 'react';
 import Grid from '@mui/material/Unstable_Grid2';
 import Button from '@mui/material/Button';
 
+// import styles
+import styles from './BookTour.module.css';
+
+
 import Context from '../../assets/partner_logos/ContextTravel.png';
 import globeLogo from '../../assets/sam_logos/globe.png';
 import tourPic from '../../assets/images/tourPic.jpg';
@@ -11,13 +15,13 @@ const BookTour = () => {
   return (
     <Grid container justifyContent='center' textAlign='center'>
       <Grid xs={12}>
-        <h2 className='nothing-you-could-do' style={{fontSize: '48px', marginTop: '0px'}}>TOURS</h2>
+        <h2 className={`nothing-you-could-do  ${styles.toursHeadline}`} style={{fontSize: '48px', marginTop: '0px'}}>TOURS</h2>
       </Grid>
       <Grid xs={12}> 
         <img src={globeLogo} alt="globe logo" style={{width: '60%', height: 'auto', marginTop: '-140px', marginBottom: '-90px'}} />
       </Grid>
       <Grid xs={12}>
-        <h3 style={{marginTop: '10px', marginBottom: '0'}}>Experience the World with Leading Experts</h3>
+        <h3 className={`${styles.globeCaption}`} style={{marginTop: '10px', marginBottom: '0'}}>Experience the World with Leading Experts</h3>
       </Grid>
       <Grid xs={12} style={{margin: '19px'}}>
         <a href='https://www.contexttravel.com/?ref=HAHN' target='_blank' rel='noreferrer'>
@@ -25,7 +29,7 @@ const BookTour = () => {
         </a>
       </Grid>
       <Grid xs={12} textAlign='left'>
-        <p style={{margin: '20px', fontSize: '18px'}} >"Personal Tours for the Intentional Traveler" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Tempor orci dapibus ultrices in iaculis nunc sed augue.
+        <p className={`${styles.toursParagraph}`} style={{margin: '20px', fontSize: '18px'}} >"Personal Tours for the Intentional Traveler" Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Tempor orci dapibus ultrices.
         </p>
       </Grid>
       <Grid xs={12}>

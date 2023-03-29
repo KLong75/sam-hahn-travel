@@ -122,7 +122,7 @@ const Header = () => {
             },
           }}
         >
-          <Grid container spacing={0} justifyContent='' alignItems='center' textAlign='center'>
+          <Grid container spacing={0} alignItems='' textAlign='center'>
           <Grid item xs={12}>
           <img 
             src={frameGlobeLogoPeach} 
@@ -139,7 +139,7 @@ const Header = () => {
               {{ 
                 padding: '18px', 
                 fontSize: '22px',
-                marginLeft: '40px'
+                marginLeft: '40px',
                 // justifyContent: 'center'
               }}
             >Home
@@ -153,7 +153,8 @@ const Header = () => {
             style={{ 
               padding: '18px', 
               fontSize: '22px',
-              marginLeft: '40px' 
+              marginLeft: '40px',
+              // justifyContent: 'center' 
             }}
             >About
           </MenuItem>

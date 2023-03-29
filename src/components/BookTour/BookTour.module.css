@@ -1,0 +1,71 @@
+/* begin media queries */
+@media screen and (max-width: 500px) {
+  .toursHeadline {
+    margin-bottom: 24px !important;
+  }
+
+  .globeCaption {
+    /* font-size: 15px !important; */
+    margin-top: 20px !important;
+  } 
+  
+  .toursParagraph {
+    margin-top: 0px !important;
+    /* margin-bottom: 0px !important; */
+  }         
+}
+
+@media screen and (max-width: 450px) {
+  .toursHeadline {
+    margin-bottom: 0px !important;
+  }
+
+  .globeCaption {
+    font-size: 15px !important;
+    margin-top: 20px !important;
+  } 
+}
+
+@media screen and (max-width: 400px) {
+  .toursHeadline {
+    margin-bottom: -14px !important;
+  }
+
+  .globeCaption {
+    font-size: 14px !important;
+    margin-top: 24px !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .toursHeadline {
+    margin-bottom: -40px !important;
+  }
+
+  .globeCaption {
+    font-size: 12px !important;
+    margin-top: 32px !important;
+  }
+
+  .toursParagraph {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .toursHeadline {
+    margin-bottom: -60px !important;
+  }
+
+  .globeCaption {
+    font-size: 10px !important;
+    margin-top: 40px !important;
+    margin-bottom: -20px !important;
+  }
+
+  .toursParagraph {
+    font-size: 12px !important;
+  }
+}
+  
+/* end media queries */

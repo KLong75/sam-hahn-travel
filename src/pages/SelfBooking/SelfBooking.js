@@ -18,7 +18,7 @@ import { DisplayBox } from '../../utils/DisplayBox';
 const SelfBooking = () => {
   return (
     
-    <Grid container justifyContent='center' textAlign='center' spacing={4} >
+    <Grid container justifyContent='center' textAlign='center' spacing={4}>
   
       <Grid xs={12}>
         <h1 className={`nothing-you-could-do  ${styles.selfBookingHeadline}`} style={{fontSize: '60px', marginTop: '', marginBottom: ''}}>Self Booking Resources</h1>

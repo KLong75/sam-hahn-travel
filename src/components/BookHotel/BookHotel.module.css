@@ -1,0 +1,68 @@
+@media screen and (max-width: 500px) {
+  .hotelHeadline {
+    margin-bottom: 24px !important;
+  }
+
+  .luggageCaption {
+    /* font-size: 15px !important; */
+    margin-top: 20px !important;
+  } 
+  
+  .hotelParagraph {
+    margin-top: 0px !important;
+    /* margin-bottom: 0px !important; */
+  }         
+}
+
+@media screen and (max-width: 450px) {
+  .hotelHeadline {
+    margin-bottom: 0px !important;
+  }
+
+  .luggageCaption {
+    font-size: 15px !important;
+    margin-top: 20px !important;
+  } 
+}
+
+@media screen and (max-width: 400px) {
+  .hotelHeadline {
+    margin-bottom: -14px !important;
+  }
+
+  .luggageCaption {
+    font-size: 14px !important;
+    margin-top: 24px !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .hotelHeadline {
+    margin-bottom: -40px !important;
+  }
+
+  .luggageCaption {
+    font-size: 12px !important;
+    margin-top: 32px !important;
+  }
+
+  .hotelParagraph {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .hotelHeadline {
+    margin-bottom: -60px !important;
+  }
+
+  .luggageCaption {
+    font-size: 10px !important;
+    margin-top: 40px !important;
+    margin-bottom: -30px !important;
+  }
+
+  .hotelParagraph {
+    font-size: 12px !important;
+  }
+}
