@@ -11,13 +11,13 @@ const BookTour = () => {
   return (
     <Grid container justifyContent='center' textAlign='center'>
       <Grid xs={12}>
-        <h1>TOURS</h1>
+        <h2 className='nothing-you-could-do' style={{fontSize: '48px', marginTop: '0px'}}>TOURS</h2>
       </Grid>
       <Grid xs={12}> 
-        <img src={globeLogo} alt="globe logo" style={{width: '100px', height: '100px', marginTop: '-40px', marginBottom: '-40px'}} />
+        <img src={globeLogo} alt="globe logo" style={{width: '60%', height: 'auto', marginTop: '-140px', marginBottom: '-90px'}} />
       </Grid>
       <Grid xs={12}>
-        <h1>Experience the World with Leading Experts</h1>
+        <h3 style={{marginTop: '10px', marginBottom: '0'}}>Experience the World with Leading Experts</h3>
       </Grid>
       <Grid xs={12} style={{margin: '19px'}}>
         <a href='https://www.contexttravel.com/?ref=HAHN' target='_blank' rel='noreferrer'>

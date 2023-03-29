@@ -11,13 +11,13 @@ const BookHotel = () => {
   return (
     <Grid container justifyContent='center' textAlign='center' >
       <Grid xs={12}>
-        <h1>HOTELS</h1>
+        <h2 className='nothing-you-could-do' style={{fontSize: '48px', marginTop: '0px',marginBottom: ''}}>HOTELS</h2>
       </Grid>
       <Grid xs={12}> 
-        <img src={luggageLogo} alt="globe logo" style={{width: '100px', height: '100px', marginTop: '-40px', marginBottom: '-40px'}} />
+        <img src={luggageLogo} alt="globe logo" style={{width: '60%', height: 'auto', marginTop: '-140px', marginBottom: '-90px'}} />
       </Grid>
       <Grid xs={12}>
-        <h1>Book a hotel on your own and receive VIP perks!</h1>
+        <h3 style={{marginTop: '10px', marginBottom: '0'}}>Book a hotel on your own and receive VIP perks!</h3>
       </Grid>
       <Grid xs={12} style={{margin: '20px'}}>
         <a href='https://www.virtuoso.com/advisor/samhahn52221/travel/' target='_blank' rel='noreferrer'>

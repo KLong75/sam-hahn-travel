@@ -1,0 +1,37 @@
+/* begin media queries */
+@media screen and (max-width: 600px) {
+  .selfBookingHeadline {
+    font-size: 46px !important;
+    margin: 0px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .selfBookingHeadline {
+    font-size: 38px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .selfBookingHeadline {
+    font-size: 32px !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .selfBookingHeadline {
+    font-size: 28px !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .selfBookingHeadline {
+    font-size: 24px !important;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .selfBookingHeadline {
+    font-size: 20px !important;
+  }
+}

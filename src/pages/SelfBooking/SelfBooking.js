@@ -11,7 +11,7 @@ import TextLogo from '../../components/TextLogo';
 // import images
 
 // import styles
-// import styles from './SelfBooking.module.css';
+import styles from './SelfBooking.module.css';
 
 import { DisplayBox } from '../../utils/DisplayBox';
 
@@ -21,7 +21,7 @@ const SelfBooking = () => {
     <Grid container justifyContent='center' textAlign='center' spacing={4} >
   
       <Grid xs={12}>
-        <h1 className='nothing-you-could-do' style={{fontSize: '60px', marginTop: '', marginBottom: ''}}>Self Booking Resources</h1>
+        <h1 className={`nothing-you-could-do  ${styles.selfBookingHeadline}`} style={{fontSize: '60px', marginTop: '', marginBottom: ''}}>Self Booking Resources</h1>
       </Grid>
 
       <TextLogo />
