@@ -97,7 +97,7 @@ const PartnerInfo = [
     image: MarriottStars,
     alt: 'Marriott Stars Logo',
     className: styles.marriottStarsLogo,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.',
   },
   {
     name: 'Oetker Collection',
@@ -111,7 +111,7 @@ const PartnerInfo = [
     image: Relais,
     alt: 'Relais Logo',
     className: styles.relaisLogo,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex.',
   },
   {
     name: 'Rosewood',
@@ -149,6 +149,7 @@ const Partners = () => {
         <Grid xs={12} md={4} style={{marginBottom: '30px'}}>
           <Swiper
             style={{
+               fontWeight: 'bold',
                width: '300px',
                height: '300px',
                position: 'relative',
@@ -205,6 +206,7 @@ const Partners = () => {
         <Grid xs={12} md={4} style={{marginBottom: '30px'}}>
           <Swiper
             style={{
+               fontWeight: 'bold',
                width: '300px',
                height: '300px',
                position: 'relative',
@@ -260,6 +262,7 @@ const Partners = () => {
         <Grid xs={12} md={4} style={{marginBottom: '30px'}}>
           <Swiper
             style={{
+               fontWeight: 'bold',
                width: '300px',
                height: '300px',
                position: 'relative',

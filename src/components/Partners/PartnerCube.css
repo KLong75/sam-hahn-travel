@@ -24,3 +24,38 @@
   display: none;
   /* opacity: .2 !important; */
 }
+
+
+
+/* begin media queries */
+@media screen and (max-width: 500px) {
+  .mySwiper {
+    /* width: 280px !important; */
+    /* height: 280px !important; */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mySwiper {
+    width: 280px !important;
+    height: 280px !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .mySwiper {
+    width: 240px !important;
+    height: 240px !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .mySwiper {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  .mySwiper p {
+    font-size: 10px !important;
+  }
+}

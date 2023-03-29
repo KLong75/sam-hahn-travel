@@ -23,8 +23,8 @@ import frameGlobeLogo from "../../assets/sam_logos/sht_globe_key_logo.png";
 
 export default function App() {
   return (
-    <>
-      <h6 style={{textAlign: 'center', fontSize: '28px', marginBottom: '0', marginTop: '20px'}} className='nothing-you-could-do'>Testimonials</h6>
+    <section style={{marginTop: '40px'}}>
+      <h6 style={{textAlign: 'center', fontSize: '28px', marginBottom: '20px', marginTop: '20px'}} className='nothing-you-could-do'>Testimonials</h6>
       <Swiper
         navigation={false}
         effect={"coverflow"}
@@ -40,7 +40,7 @@ export default function App() {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
+        className=""
       >
         <SwiperSlide>
           <img src={frameGlobeLogo} alt='Sam Hahn Travel Logo' style={{display: 'block', width: '100%'}}/>
@@ -149,6 +149,6 @@ export default function App() {
           <img src={frameGlobeLogo} alt='Sam Hahn Travel Logo' style={{display: 'block', width: '100%'}} />
         </SwiperSlide>
       </Swiper>
-    </>
+    </section>
   );
 }
