@@ -64,10 +64,10 @@ function App() {
           <Header />
             <Routes>
               <Route path="/sam-hahn-travel" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/design-process" element={<DesignProcess />} />
-              <Route path="/self-booking" element={<SelfBooking />} />
+              <Route path="/sam-hahn-travel/about" element={<About />} />
+              <Route path="/sam-hahn-travel/contact" element={<Contact />} />
+              <Route path="/sam-hahn-travel/design-process" element={<DesignProcess />} />
+              <Route path="/sam-hahn-travel/self-booking" element={<SelfBooking />} />
               {/* <Route path="/book-hotel" element={<BookHotel />} /> */}
             </Routes>
             <Swiper />

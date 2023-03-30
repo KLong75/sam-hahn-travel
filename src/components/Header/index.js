@@ -70,16 +70,16 @@ const Header = () => {
                   <Link to="/sam-hahn-travel">Home</Link>
               </li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
-                <Link to="/about">About</Link>
+                <Link to="/sam-hahn-travel/about">About</Link>
               </li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
-                <Link to="/contact">Contact</Link>
+                <Link to="/sam-hahn-travel/contact">Contact</Link>
               </li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
-                <Link to="/design-process">Travel Design</Link>
+                <Link to="/sam-hahn-travel/design-process">Travel Design</Link>
               </li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
-                <Link to="/self-booking">Self Booking Resources</Link>
+                <Link to="/sam-hahn-travel/self-booking">Self Booking Resources</Link>
               </li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
                 <a 
@@ -148,7 +148,7 @@ const Header = () => {
           <Grid xs={12}>
           <MenuItem 
             component={Link} 
-            to="/about" 
+            to="/sam-hahn-travel/about" 
             onClick={handleMenuClose} 
             style={{ 
               padding: '18px', 
@@ -162,7 +162,7 @@ const Header = () => {
           <Grid xs={12}>
           <MenuItem 
             component={Link} 
-            to="/contact" 
+            to="/sam-hahn-travel/contact" 
             onClick={handleMenuClose} 
             style=
               {{ 
@@ -176,7 +176,7 @@ const Header = () => {
           <Grid xs={12}>
           <MenuItem 
             component={Link} 
-            to="/design-process" 
+            to="/sam-hahn-travel/design-process" 
             onClick={handleMenuClose} 
             style=
               {{ 
@@ -190,7 +190,7 @@ const Header = () => {
           <Grid xs={12}>
           <MenuItem 
             component={Link} 
-            to="/self-booking" 
+            to="/sam-hahn-travel/self-booking" 
             onClick={handleMenuClose} 
             style=
               {{ 
