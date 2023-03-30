@@ -10,7 +10,7 @@ import styles from './GlobeKeyLogo.module.css';
 const GlobeKeyLogo = () => {
   return (
     // <Link to="/"><img src={globeKeyLogo} alt="Sam Hahn Travel Logo" /></Link>
-    <Link to="/">
+    <Link to="/sam-hahn-travel">
       <img src={globeKeyLogo} alt="Sam Hahn Travel Logo" className={styles.logoImage} sx={{ maxWidth: '100%' }} />
     </Link>
   )

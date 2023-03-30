@@ -67,7 +67,7 @@ const Header = () => {
           <nav style={{ margin: 0, padding: 0 }}>
             <ul style={{ display: 'flex', listStyle: 'none', margin: 0, padding: 0 }}>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
-                  <Link to="/">Home</Link>
+                  <Link to="/sam-hahn-travel">Home</Link>
               </li>
               <li style={{ margin: '0 20px', fontSize: '20px', fontWeight: 'bold' }}>
                 <Link to="/about">About</Link>
@@ -133,7 +133,7 @@ const Header = () => {
           <Grid xs={12}>
           <MenuItem 
             component={Link} 
-            to="/" 
+            to="/sam-hahn-travel" 
             onClick={handleMenuClose} 
             style=
               {{ 
