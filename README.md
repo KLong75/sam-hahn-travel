@@ -12,9 +12,18 @@ Fully responsive website for Sam Hahn Travel built with React and Material UI.
 
 ## Screenshots of Application
 
-![Screenshot 2023-03-30 142527](https://user-images.githubusercontent.com/98487770/228949105-f5c6d51f-f40e-413d-8a2a-5086a054d930.png)
+![Screenshot 2023-03-30 172423](https://user-images.githubusercontent.com/98487770/228978082-65a56dc0-e9f4-41ea-b6ee-12df61fe346e.png)
+![Screenshot 2023-03-30 172442](https://user-images.githubusercontent.com/98487770/228978096-25cf9539-afd1-48e0-993c-a0d179697c4e.png)
 ![Screenshot_20230330_141937_Chrome](https://user-images.githubusercontent.com/98487770/228949134-2037d933-d710-4590-a5db-c2f72d3ee2ea.jpg)
 
+
+![Screenshot_20230330_141959_Chrome](https://user-images.githubusercontent.com/98487770/228978549-ba4d7a70-5755-4029-a6ab-b28a62174ea8.jpg)
+![Screenshot 2023-03-30 173714](https://user-images.githubusercontent.com/98487770/228979062-8f9b5487-73e7-4ab1-a149-091e08d695f3.png)
+
+
+![Screenshot_20230330_142043_Chrome](https://user-images.githubusercontent.com/98487770/228978560-02df30ed-8ec6-42e9-8365-e13e3b653a09.jpg)
+
+![Screenshot_20230330_142057_Chrome](https://user-images.githubusercontent.com/98487770/228979244-1bb6bf45-8d47-4962-858d-5bc414c60b14.jpg)
 ![Screenshot 2023-03-30 142647](https://user-images.githubusercontent.com/98487770/228947900-45f457be-d682-4145-94ea-5b1e4eb7ca26.png)
 
 ![Screenshot 2023-03-30 142816](https://user-images.githubusercontent.com/98487770/228947920-33250e4f-fef5-45f5-a270-07450e5e7a06.png)
