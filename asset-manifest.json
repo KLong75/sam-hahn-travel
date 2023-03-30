@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sam-hahn-travel/static/css/main.07f0710b.css",
-    "main.js": "/sam-hahn-travel/static/js/main.c53303b2.js",
+    "main.css": "/sam-hahn-travel/static/css/main.d3cb8e68.css",
+    "main.js": "/sam-hahn-travel/static/js/main.01f4911b.js",
     "static/js/787.b69d8da9.chunk.js": "/sam-hahn-travel/static/js/787.b69d8da9.chunk.js",
     "static/media/thaiBoat.jpg": "/sam-hahn-travel/static/media/thaiBoat.37d6c5a6552748144b3b.jpg",
     "static/media/blue-water_1_1.jpg": "/sam-hahn-travel/static/media/blue-water_1_1.485a7fa5aecd7f20e2c4.jpg",
@@ -12,17 +12,18 @@
     "static/media/pinkCarCuba.jpg": "/sam-hahn-travel/static/media/pinkCarCuba.e53732a0c02168ef634b.jpg",
     "static/media/bikeDream1_1.jpg": "/sam-hahn-travel/static/media/bikeDream1_1.df918ba4c27361298e4b.jpg",
     "static/media/dominicanHotel1_1.jpg": "/sam-hahn-travel/static/media/dominicanHotel1_1.cd63c4c42ea5784284e1.jpg",
+    "static/media/camels.jpg": "/sam-hahn-travel/static/media/camels.3ec9a46c2cb9bc4c9a1e.jpg",
     "static/media/waterfall_1_1.jpg": "/sam-hahn-travel/static/media/waterfall_1_1.a7f7ea877ad83ee7523b.jpg",
     "static/media/Italy.jpg": "/sam-hahn-travel/static/media/Italy.0e25c7d843cc0be6158c.jpg",
     "static/media/germany_1_1.jpg": "/sam-hahn-travel/static/media/germany_1_1.f937285d3fab6b4093bf.jpg",
     "static/media/Italy_1_1.jpg": "/sam-hahn-travel/static/media/Italy_1_1.1d1954ddaf80ceec8553.jpg",
     "static/media/eifel_tower_1_1.jpg": "/sam-hahn-travel/static/media/eifel_tower_1_1.5b7c02376c755d968933.jpg",
+    "static/media/groupSunset.jpg": "/sam-hahn-travel/static/media/groupSunset.eeb3e930f3299f03577f.jpg",
     "static/media/imageOne.jpeg": "/sam-hahn-travel/static/media/imageOne.6b8efd6c1f6a9ad1a9e9.jpeg",
     "static/media/sam_cover_pic.jpg": "/sam-hahn-travel/static/media/sam_cover_pic.2e91b5110e1a82ffd3e6.jpg",
     "static/media/tourPic.jpg": "/sam-hahn-travel/static/media/tourPic.774f19025217c032fc1b.jpg",
     "static/media/bridge-hiker_1_1.jpg": "/sam-hahn-travel/static/media/bridge-hiker_1_1.8762cb46fc7d38e8ff37.jpg",
     "static/media/frame_globe_logo_peach.png": "/sam-hahn-travel/static/media/frame_globe_logo_peach.e24bc8afab43d9eca354.png",
-    "static/media/unsplash.jpg": "/sam-hahn-travel/static/media/unsplash.b1e43685a3aec3c3cb5c.jpg",
     "static/media/keychain.png": "/sam-hahn-travel/static/media/keychain.d397b7f0536737b4f32a.png",
     "static/media/luggage.png": "/sam-hahn-travel/static/media/luggage.d45a8a78db0f11847d69.png",
     "static/media/globe.png": "/sam-hahn-travel/static/media/globe.3447f2bb3a95b464ee98.png",
@@ -44,12 +45,12 @@
     "static/media/Belmond_new.png": "/sam-hahn-travel/static/media/Belmond_new.f36b476de57de5ef437e.png",
     "static/media/ContextTravel.png": "/sam-hahn-travel/static/media/ContextTravel.266869112abd2b496599.png",
     "index.html": "/sam-hahn-travel/index.html",
-    "main.07f0710b.css.map": "/sam-hahn-travel/static/css/main.07f0710b.css.map",
-    "main.c53303b2.js.map": "/sam-hahn-travel/static/js/main.c53303b2.js.map",
+    "main.d3cb8e68.css.map": "/sam-hahn-travel/static/css/main.d3cb8e68.css.map",
+    "main.01f4911b.js.map": "/sam-hahn-travel/static/js/main.01f4911b.js.map",
     "787.b69d8da9.chunk.js.map": "/sam-hahn-travel/static/js/787.b69d8da9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07f0710b.css",
-    "static/js/main.c53303b2.js"
+    "static/css/main.d3cb8e68.css",
+    "static/js/main.01f4911b.js"
   ]
 }
