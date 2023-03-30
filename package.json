@@ -50,7 +50,6 @@
       "react-app/jest"
     ]
   },
-  
   "browserslist": {
     "production": [
       ">0.2%",
@@ -64,7 +63,7 @@
     ]
   },
   "devDependencies": {
-    "node-libs-browser": "^2.2.1",
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "node-libs-browser": "^2.2.1"
   }
 }

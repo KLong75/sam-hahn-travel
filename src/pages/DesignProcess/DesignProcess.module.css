@@ -1,27 +1,55 @@
 /* begin media queries */
+@media screen and (max-width: 1200px) {
+  .processHeadline {
+    /* font-size: 34px !important; */
+    margin-bottom: 80px !important;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .processHeadline {
-    font-size: 34px !important;
+    /* font-size: 34px !important; */
+    margin-bottom: 60px !important;
   }
 }
 
 @media screen and (max-width: 500px) {
   .processParagraph {
     font-size: 18px !important;
+    margin-top: 28px !important;
+  }
+
+  .processUL {
+    font-size: 18px !important;
   }
 }
 
 @media screen and (max-width: 400px) {
   .processHeadline {
-    font-size: 28px !important;
+    font-size: 36px !important;
   }
   .processParagraph {
     font-size: 16px !important;
+    margin-top: 42px !important;
   }
+
+  .processUL {
+    font-size: 16px !important;
+  }
+
+
 }
 
 @media screen and (max-width: 300px) {
   .processHeadline {
-    font-size: 18px !important;
+    font-size: 32px !important;
+    margin-bottom: 20px !important;
+  }
+  .processParagraph {
+    font-size: 14px !important;
+  }
+
+  .processUL {
+    font-size: 14px !important;
   }
 }
