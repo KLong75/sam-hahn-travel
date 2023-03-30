@@ -8,7 +8,7 @@ Fully responsive website for Sam Hahn Travel built with React and Material UI.
 
 ## URL of Deployed Application
 
-<>
+<https://klong75.github.io/sam-hahn-travel>
 
 ## Screenshots of Application
 
