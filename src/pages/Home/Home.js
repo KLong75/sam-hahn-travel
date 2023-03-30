@@ -10,8 +10,8 @@ import Services from '../../components/ServicesOffered';
 import GalleryCube from '../../components/GalleryCube';
 
 // import images
-import textLogo from '../../assets/sam_logos/text_name_logo.png';
-import pinkBlueLandscape from '../../assets/images/unsplash.jpg';
+// import textLogo from '../../assets/sam_logos/text_name_logo.png';
+// import pinkBlueLandscape from '../../assets/images/unsplash.jpg';
 import planeView from '../../assets/images/planeView.jpg';
 import Italy from '../../assets/images/Italy.jpg';
 import frame from '../../assets/sam_logos/frame.png';
@@ -46,19 +46,19 @@ const Home = () => {
         // height: '50vh',
       }}
     >
-      <Grid xs={12} >
+      {/* <Grid xs={12} >
         <img src={textLogo} alt='text logo' style={{width: '80%', height: 'auto', marginTop: '10px'}} />
-      </Grid>
+      </Grid> */}
 
       <Grid xs={12} >
         <h1 
           className='nothing-you-could-do home-headline' 
           style={{
-            fontSize: '90px',
+            fontSize: '100px',
             fontWeight: 'bolder',
             zIndex: '2',
             position: 'relative',
-            marginTop: '20px',
+            marginTop: '0px',
             marginBottom: '0px',
           
           }}
@@ -74,20 +74,20 @@ const Home = () => {
         <GalleryCube />
       </Grid>
 
-      <DisplayCard elevation={6} alignItems='center' style={{marginTop: '-40px'}}>
+      {/* <DisplayCard elevation={6} alignItems='center' style={{marginTop: '-40px'}}>
       <Grid xs={12} >
 
         <img src={pinkBlueLandscape} alt='landscape phot with water and mountains' style={{width: '100%', height: 'auto', marginTop: '10px'}} />
 
       </Grid>
-      </DisplayCard>
+      </DisplayCard> */}
 
     </Grid>
 
     <Grid container spacing={0} justifyContent='center' textAlign='center' >
 
       <Grid xs={12}>
-        <h2 className={`nothing-you-could-do home-sub-headline ${styles.homeSubHeadline}`} style={{fontSize: '60px', fontWeight: 'bolder', marginTop: '0px', marginBottom: '20px'}}>Discover The Value of a Travel Designer</h2>
+        <h2 className={`nothing-you-could-do home-sub-headline ${styles.homeSubHeadline}`} style={{fontSize: '60px', fontWeight: 'bolder', marginTop: '-100px', marginBottom: '20px'}}>Discover The Value of a Travel Designer</h2>
     
       </Grid>
 

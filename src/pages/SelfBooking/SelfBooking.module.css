@@ -16,11 +16,18 @@
   .selfBookingHeadline {
     font-size: 32px !important;
   }
+  .bookHotelGrid {
+    margin-top: -20px !important;
+  }
 }
 
 @media screen and (max-width: 350px) {
   .selfBookingHeadline {
     font-size: 28px !important;
+  }
+
+  .bookHotelGrid {
+    margin-top: -40px !important;
   }
 }
 

@@ -64,10 +64,10 @@ const DesignProcess = () => {
         </DisplayBox>
       </Grid>
 
-      <Services />
-
       <Partners/>
 
+      <Services />
+      
     </Grid>
   );
 };

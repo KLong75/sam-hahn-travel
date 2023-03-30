@@ -12,16 +12,8 @@ import ScheduleAppointment from '../../components/ScheduleAppointment';
 import TextLogo from '../../components/TextLogo';
 
 // import images
-// import boatMountains from '../../assets/images/boat-mountains.jpg';
-// import boatsOnWater from '../../assets/images/blue-water.jpg'
-import pinkCar from '../../assets/images/pinkCarCuba.jpg';
-// import bikeDream from '../../assets/images/bike-dream.jpg';
-// import bridgeHiker from '../../assets/images/bridge-hiker-reduce.jpg';
-// import textLogo from '../assets/images/text_name_logo.png';
-// import landscapePic from '../assets/images/unsplash3.jpg'
 import thaiBoat from '../../assets/images/thaiBoat.jpg';
-import mountainBed from '../../assets/images/mountainBed.jpg';
-
+import groupSunset from '../../assets/images/groupSunset.jpg'
 
 // import utils
 import { DisplayBox } from '../../utils/DisplayBox';
@@ -44,11 +36,10 @@ const Contact = () => {
       <Grid  xs={12} md={6} style={{ marginTop: '-80px'}} height=''>
         <DisplayBox elevation={6} >
           <ScheduleAppointment  />
-          <img src={mountainBed} alt='' style={{width: '98%', height: 'auto', marginTop: '0px', marginBottom: ''}}/>
         </DisplayBox>
         <DisplayBox elevation={6} >
           <MailingListSignUp />
-          <img src={pinkCar} alt='' style={{width: '90%', height: 'auto', marginTop: '', marginBottom: ''}}/>
+          <img src={groupSunset} alt='' style={{width: '90%', height: 'auto', marginTop: '', marginBottom: ''}}/>
         </DisplayBox>
       </Grid>
      

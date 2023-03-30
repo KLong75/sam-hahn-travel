@@ -9,6 +9,9 @@ import { Paper } from '@mui/material';
 import globe from '../../assets/sam_logos/globe.png';
 import keychain from '../../assets/sam_logos/keychain.png';
 import luggage from '../../assets/sam_logos/luggage.png';
+import mountainBed from '../../assets/images/mountainBed.jpg'
+import pinkCar from '../../assets/images/pinkCarCuba.jpg';
+import camels from '../../assets/images/camels.jpg'
 
 // import styles
 import styles from './ServicesOffered.module.css';
@@ -42,6 +45,7 @@ const Services = () => {
           <img src={globe} alt='globe icon' className={styles.globeIcon} sx={{ maxWidth: '100%' }} style={{ marginBottom: '-30px'}}/>
           <p style={{fontWeight: 'bolder', color: 'black', fontSize: '20px' }} >Air Only Service: $75</p>
           <p style={{fontWeight: 'bolder', color: 'black', fontSize: '20px', marginBottom: '' }}>Reservation Management: Fees may apply</p>
+          <img src={mountainBed} alt='' style={{width: '98%', height: 'auto', marginTop: '0px', marginBottom: ''}}/>
           </ServiceCard>
         </Grid>
 
@@ -51,6 +55,7 @@ const Services = () => {
           <img src={keychain} alt='globe icon' className={styles.keychainIcon} sx={{ maxWidth: '100%' }} style={{ marginBottom: '-30px'}} />
           <p style={{fontWeight: 'bolder', color: 'black', fontSize: '20px'}}>Personalized Plans: Starting at $300</p>
           <p style={{fontWeight: 'bolder', color: 'black', fontSize: '20px'}}>Itinerary Management: Complimentary</p>
+          <img src={camels} alt='' style={{width: '98%', height: 'auto', marginTop: '0px', marginBottom: ''}}/>
           </ServiceCard>
         </Grid>
 
@@ -60,6 +65,7 @@ const Services = () => {
           <img src={luggage} alt='globe icon' className={styles.luggageIcon} sx={{ maxWidth: '100%' }} style={{ marginBottom: '-30px' }}/>
           <p style={{fontWeight: 'bolder', color: 'black', fontSize: '20px'}}>Group Booking: Starting at $300</p>
           <p style={{fontWeight: 'bolder', color: 'black', fontSize: '20px'}}>Itinerary Management: Complimentary</p>
+          <img src={pinkCar} alt='' style={{width: '98%', height: 'auto', marginTop: '0px', marginBottom: ''}}/>
           </ServiceCard>
         </Grid>
         

@@ -26,7 +26,7 @@ const SelfBooking = () => {
 
       <TextLogo />
 
-      <Grid xs={12} md={6}>
+      <Grid xs={12} md={6} className={styles.bookHotelGrid}>
         <DisplayBox elevation={6} style={{height: 'auto'}}>
           <BookHotel />
         </DisplayBox>
