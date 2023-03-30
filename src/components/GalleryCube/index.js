@@ -28,6 +28,7 @@ export default function GalleryCube() {
   return (
     <>
       <Swiper
+        speed={1000}
         style={{
           width: '400px',
           height: '400px',
@@ -44,7 +45,7 @@ export default function GalleryCube() {
           shadowScale: 0.94,
         }}
         autoplay={{
-          delay: 2500,
+          delay: 4000,
           disableOnInteraction: false,
         }}
         pagination={false}
