@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sam-hahn-travel/static/css/main.34222b09.css",
-    "main.js": "/sam-hahn-travel/static/js/main.9689a617.js",
+    "main.css": "/sam-hahn-travel/static/css/main.5e4a0eff.css",
+    "main.js": "/sam-hahn-travel/static/js/main.22f18a7b.js",
     "static/js/787.b69d8da9.chunk.js": "/sam-hahn-travel/static/js/787.b69d8da9.chunk.js",
     "static/media/thaiBoat.jpg": "/sam-hahn-travel/static/media/thaiBoat.37d6c5a6552748144b3b.jpg",
     "static/media/blue-water_1_1.jpg": "/sam-hahn-travel/static/media/blue-water_1_1.485a7fa5aecd7f20e2c4.jpg",
@@ -45,12 +45,12 @@
     "static/media/Belmond_new.png": "/sam-hahn-travel/static/media/Belmond_new.f36b476de57de5ef437e.png",
     "static/media/ContextTravel.png": "/sam-hahn-travel/static/media/ContextTravel.266869112abd2b496599.png",
     "index.html": "/sam-hahn-travel/index.html",
-    "main.34222b09.css.map": "/sam-hahn-travel/static/css/main.34222b09.css.map",
-    "main.9689a617.js.map": "/sam-hahn-travel/static/js/main.9689a617.js.map",
+    "main.5e4a0eff.css.map": "/sam-hahn-travel/static/css/main.5e4a0eff.css.map",
+    "main.22f18a7b.js.map": "/sam-hahn-travel/static/js/main.22f18a7b.js.map",
     "787.b69d8da9.chunk.js.map": "/sam-hahn-travel/static/js/787.b69d8da9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34222b09.css",
-    "static/js/main.9689a617.js"
+    "static/css/main.5e4a0eff.css",
+    "static/js/main.22f18a7b.js"
   ]
 }
