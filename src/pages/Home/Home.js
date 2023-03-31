@@ -67,7 +67,7 @@ const Home = () => {
       </Grid>
 
       <Grid xs={12} style={{}}>
-        <img src={frame} alt='Sam Hahn' style={{width: '100%', height: 'auto', marginTop: '', marginBottom: ''}}/>
+        <img src={frame} alt='Sam Hahn' style={{width: '100%', height: 'auto'}}/>
       </Grid>
 
       <Grid xs={12} style={{marginTop: '-60em'}} className={` ${styles.galleryCubeGrid}`} >

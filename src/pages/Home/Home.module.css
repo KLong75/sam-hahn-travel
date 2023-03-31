@@ -146,13 +146,13 @@
 
 @media screen and (max-width: 600px) {
   .galleryCubeGrid {
-    margin-top: -24em !important;
+    margin-top: -23em !important;
   }
 }
 
 @media screen and (max-width: 550px) {
   .galleryCubeGrid {
-    margin-top: -22em !important;
+    margin-top: -21em !important;
   }
 }
 
