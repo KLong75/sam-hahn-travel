@@ -83,11 +83,6 @@
   }
 }
 
-@media screen and (max-width: 1150px) {
-  .galleryCubeGrid {
-    /* margin-top: -42em !important; */
-  }
-}
 
 @media screen and (max-width: 1100px) {
   .galleryCubeGrid {
