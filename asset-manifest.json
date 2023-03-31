@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sam-hahn-travel/static/css/main.ab210f76.css",
+    "main.css": "/sam-hahn-travel/static/css/main.34222b09.css",
     "main.js": "/sam-hahn-travel/static/js/main.9689a617.js",
     "static/js/787.b69d8da9.chunk.js": "/sam-hahn-travel/static/js/787.b69d8da9.chunk.js",
     "static/media/thaiBoat.jpg": "/sam-hahn-travel/static/media/thaiBoat.37d6c5a6552748144b3b.jpg",
@@ -45,12 +45,12 @@
     "static/media/Belmond_new.png": "/sam-hahn-travel/static/media/Belmond_new.f36b476de57de5ef437e.png",
     "static/media/ContextTravel.png": "/sam-hahn-travel/static/media/ContextTravel.266869112abd2b496599.png",
     "index.html": "/sam-hahn-travel/index.html",
-    "main.ab210f76.css.map": "/sam-hahn-travel/static/css/main.ab210f76.css.map",
+    "main.34222b09.css.map": "/sam-hahn-travel/static/css/main.34222b09.css.map",
     "main.9689a617.js.map": "/sam-hahn-travel/static/js/main.9689a617.js.map",
     "787.b69d8da9.chunk.js.map": "/sam-hahn-travel/static/js/787.b69d8da9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab210f76.css",
+    "static/css/main.34222b09.css",
     "static/js/main.9689a617.js"
   ]
 }
