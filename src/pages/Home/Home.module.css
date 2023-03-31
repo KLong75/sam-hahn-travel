@@ -1,20 +1,79 @@
 /* begin media queries */
+@media screen and (min-width: 2400px) {
+  .galleryCubeGrid {
+    margin-top: -90em !important;
+  }
+}
+
+@media screen and (max-width: 2399px) {
+  .galleryCubeGrid {
+    margin-top: -86em !important;
+  }
+}
+
+@media screen and (max-width: 2300px) {
+  .galleryCubeGrid {
+    margin-top: -82em !important;
+  }
+}
+
+@media screen and (max-width: 2200px) {
+  .galleryCubeGrid {
+    margin-top: -78em !important;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .galleryCubeGrid {
+    margin-top: -74em !important;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .galleryCubeGrid {
+    margin-top: -70em !important;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .galleryCubeGrid {
+    margin-top: -68em !important;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .galleryCubeGrid {
+    margin-top: -64em !important;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .galleryCubeGrid {
+    margin-top: -60em !important;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .galleryCubeGrid {
+    margin-top: -58em !important;
+  }
+}
 
 @media screen and (max-width: 1450px) {
   .galleryCubeGrid {
-    margin-top: -54em !important;
+    margin-top: -56em !important;
   }
 }
 
 @media screen and (max-width: 1400px) {
   .galleryCubeGrid {
-    margin-top: -52em !important;
+    margin-top: -54em !important;
   }
 }
 
 @media screen and (max-width: 1300px) {
   .galleryCubeGrid {
-    margin-top: -48em !important;
+    margin-top: -50em !important;
   }
 }
 
@@ -26,13 +85,13 @@
 
 @media screen and (max-width: 1150px) {
   .galleryCubeGrid {
-    margin-top: -42em !important;
+    /* margin-top: -42em !important; */
   }
 }
 
 @media screen and (max-width: 1100px) {
   .galleryCubeGrid {
-    margin-top: -40em !important;
+    margin-top: -42em !important;
   }
 }
 
@@ -74,7 +133,7 @@
 
 @media screen and (max-width: 750px) {
   .galleryCubeGrid {
-    margin-top: -30em !important;
+    margin-top: -28em !important;
   }
 }
 
@@ -104,7 +163,7 @@
 
 @media screen and (max-width: 500px) {
   .galleryCubeGrid {
-    margin-top: -19em !important;
+    margin-top: -20em !important;
   }
 }
 
