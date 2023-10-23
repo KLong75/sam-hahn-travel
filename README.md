@@ -4,7 +4,7 @@
 
 ## Description
 
-Fully responsive website for Sam Hahn Travel built with React and Material UI.
+Built with React, React Router, Swiperjs, and Material UI. Fully responsive website for Sam Hahn Travel 
 
 ## URL of Deployed Application
 
