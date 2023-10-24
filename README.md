@@ -4,7 +4,7 @@
 
 ## Description
 
-Built with React, React Router, Swiperjs, Emailjs, and Material UI. Fully responsive website for Sam Hahn Travel 
+Built with React, React Router, Swiperjs, Emailjs, and Material UI. Fully responsive website for Sam Hahn Travel. Single Page Application.
 
 ## URL of Deployed Application
 
